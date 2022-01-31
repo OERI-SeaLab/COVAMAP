@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Intro.unity
+    guid: 4ce4adafc441eff4780a1fa9f35b0be6
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: d8a76e7892a5ed343b0dd7ed7c53ee15
+  - enabled: 1
+    path: Assets/Scenes/PPE/About.unity
+    guid: e66622dffbb9735488ff6a4404d6bef2
+  - enabled: 1
+    path: Assets/Scenes/Games.unity
+    guid: 077565ac45168ab45a21a9ce89187c2d
+  - enabled: 1
+    path: Assets/Scenes/Levels.unity
+    guid: 38b1f5c025672824eae34f36c7d98c9c
+  - enabled: 1
+    path: Assets/Scenes/PPE/PPE.unity
+    guid: 15fbfa4ea59ceda479e7b41f58b2002a
+  - enabled: 1
+    path: Assets/Scenes/Quit.unity
+    guid: fcd7c383a1cd5b040ba34c6c6e1c3842
+  - enabled: 1
+    path: Assets/Scenes/PPE/Scoreboard.unity
+    guid: d70af03bd3e73344c8ee1ff7ff8721ab
+  - enabled: 1
+    path: Assets/Scenes/Valves/AboutValves.unity
+    guid: bef72292454dc2742aa90150ec6ed324
+  - enabled: 1
+    path: Assets/Scenes/Valves/Valves.unity
+    guid: aa0e522b6ae22a342a9fe35ce19ad671
+  - enabled: 1
+    path: Assets/Scenes/hazards/ScoreboardHazards.unity
+    guid: 32ed75c2040f185428acafbcad6385ec
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/hazards/HazardsChecklist.unity
+    guid: bac07c89a153f2847a06a2cd78dfb550
+  - enabled: 1
+    path: Assets/Scenes/hazards/AboutHazards.unity
+    guid: cc5e206059d72ce44aaaf20e85cd566a
+  - enabled: 1
+    path: Assets/Scenes/hazards/hazards.unity
+    guid: 53213224a31d5044e93d2416b55eb7cd
+  - enabled: 1
+    path: Assets/Scenes/Valves/ScoreboardValves.unity
+    guid: 76334d882221b2a4e92583f3c2865c37
+  m_configObjects: {}

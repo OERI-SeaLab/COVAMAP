@@ -1,0 +1,436 @@
+fileFormatVersion: 2
+guid: 692427f644055254fa08eb95f5b21b6b
+ModelImporter:
+  serializedVersion: 20101
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bodyMat
+    second: {fileID: 2100000, guid: 8cf3ac3560f4fb14297a99ebed996884, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: glovesMat
+    second: {fileID: 2100000, guid: 5a5607a3267a97c478a9e35a14dd7e5b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: gogglesMat
+    second: {fileID: 2100000, guid: f0b166271d0997043a6b56bd60d45bdf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hatMat
+    second: {fileID: 2100000, guid: 11d4647f34b885a4ea963cefc7070987, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hearingProtectionMat
+    second: {fileID: 2100000, guid: 720c57284ac438c48b3c86fa489e70f0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: shoesMat
+    second: {fileID: 2100000, guid: 7c2742a6498f58f4f9d43f30aa747c33, type: 2}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.5
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: covaMapCharacter(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gloves
+      parentName: covaMapCharacter(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: shoes
+      parentName: covaMapCharacter(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: goggles
+      parentName: covaMapCharacter(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: body
+      parentName: covaMapCharacter(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hearingProtection
+      parentName: covaMapCharacter(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hat
+      parentName: covaMapCharacter(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: COVA_Hip
+      parentName: covaMapCharacter(Clone)
+      position: {x: 0, y: 0.9058079, z: 0}
+      rotation: {x: 0.47948563, y: -0.5197053, z: -0.47948563, w: 0.5197053}
+      scale: {x: 1, y: 1, z: 1}
+    - name: COVA_Spine
+      parentName: COVA_Hip
+      position: {x: -0.1454228, y: -0.000000008510477, z: -3.225309e-17}
+      rotation: {x: 0, y: -0, z: -0.002668877, w: 0.9999964}
+      scale: {x: 1, y: 1, z: 1}
+    - name: COVA_Chest
+      parentName: COVA_Spine
+      position: {x: -0.1174771, y: -0.000000003126757, z: -2.5535132e-17}
+      rotation: {x: 0, y: 0, z: 0.021277165, w: 0.9997736}
+      scale: {x: 1, y: 1, z: 1}
+    - name: COVA_Neck
+      parentName: COVA_Chest
+      position: {x: -0.12341877, y: -0.000000009502737, z: -2.7755582e-17}
+      rotation: {x: 0, y: -0, z: -0.23116688, w: 0.9729141}
+      scale: {x: 1, y: 1, z: 1}
+    - name: COVA_Head
+      parentName: COVA_Neck
+      position: {x: -0.06818258, y: 7.875214e-10, z: -8.326674e-18}
+      rotation: {x: 0, y: 0, z: 0.17355323, w: 0.9848245}
+      scale: {x: 1, y: 1, z: 1}
+    - name: COVA_tophead
+      parentName: COVA_Head
+      position: {x: -0.29783908, y: -8.2156505e-17, z: -9.9200336e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: COVA_L_Shoulder
+      parentName: COVA_Chest
+      position: {x: -0.111621775, y: 0.004486285, z: 0.06352728}
+      rotation: {x: 0.054406464, y: 0.7701163, z: -0.031606633, w: 0.63479286}
+      scale: {x: 1, y: 1, z: 1}
+    - name: COVA_L_Upper_Arm
+      parentName: COVA_L_Shoulder
+      position: {x: -0.063038945, y: -0.0008954483, z: 0.008434391}
+      rotation: {x: -0.7017136, y: -0.068379186, z: -0.10485067, w: 0.70137626}
+      scale: {x: 1, y: 1, z: 1}
+    - name: COVA_L_Lower_Arm
+      parentName: COVA_L_Upper_Arm
+      position: {x: -0.24638203, y: -0.00000006688338, z: 0.000000043333777}
+      rotation: {x: 0.00001209974, y: 0.0017936821, z: -0.010004145, w: 0.9999484}
+      scale: {x: 1, y: 1, z: 1}
+    - name: COVA_L_Hand
+      parentName: COVA_L_Lower_Arm
+      position: {x: -0.25232634, y: 0.00000004577961, z: -0.0000000021257613}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: COVA_L_Thumb_Proximal
+      parentName: COVA_L_Hand
+      position: {x: -0.037716456, y: -0.017341834, z: 0.019657817}
+      rotation: {x: 0.010369238, y: 0.2530527, z: 0.10143094, w: 0.96206474}
+      scale: {x: 1, y: 1, z: 1}
+    - name: COVA_L_Thumb_Intermediate
+      parentName: COVA_L_Thumb_Proximal
+      position: {x: -0.026967416, y: -0.00000007707809, z: 0.00000001754842}
+      rotation: {x: -0.04352575, y: -0.03569908, z: -0.008284741, w: 0.99837995}
+      scale: {x: 1, y: 1, z: 1}
+    - name: COVA_L_Thumb_Distal
+      parentName: COVA_L_Thumb_Intermediate
+      position: {x: -0.020836072, y: -0.000000047233833, z: 0.0000000063917716}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: COVA_L_Index_Proximal
+      parentName: COVA_L_Hand
+      position: {x: -0.10499543, y: -0.011829777, z: 0.0050536827}
+      rotation: {x: 0.0031812887, y: -0.07336577, z: 0.12780783, w: 0.9890766}
+      scale: {x: 1, y: 1, z: 1}
+    - name: COVA_L_Index_Intermediate
+      parentName: COVA_L_Index_Proximal
+      position: {x: -0.022930445, y: 0.00000005345352, z: -0.000000007912194}
+      rotation: {x: 0.0014881041, y: 0.0032600656, z: 0.010309542, w: 0.99994045}
+      scale: {x: 1, y: 1, z: 1}
+    - name: COVA_L_Index_Distal
+      parentName: COVA_L_Index_Intermediate
+      position: {x: -0.027674854, y: -0.000000045871932, z: 0.0000000030704994}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: COVA_L_Middle_Proximal
+      parentName: COVA_L_Hand
+      position: {x: -0.111557275, y: -0.01203554, z: -0.022337746}
+      rotation: {x: -0.00948058, y: -0.096626535, z: 0.13170147, w: 0.9865233}
+      scale: {x: 1, y: 1, z: 1}
+    - name: COVA_L_Middle_Intermediate
+      parentName: COVA_L_Middle_Proximal
+      position: {x: -0.023132818, y: 0.000000058438708, z: 0.000000008671972}
+      rotation: {x: 0.0071802796, y: 0.016908618, z: 0.023517419, w: 0.99955463}
+      scale: {x: 1, y: 1, z: 1}
+    - name: COVA_L_Middle_Distal
+      parentName: COVA_L_Middle_Intermediate
+      position: {x: -0.023606896, y: -0.000000012240375, z: -0.000000013720651}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: COVA_L_Ring_Proximal
+      parentName: COVA_L_Hand
+      position: {x: -0.10292905, y: -0.012595096, z: -0.04715743}
+      rotation: {x: -0.021988614, y: -0.14663106, z: 0.1146674, w: 0.9822765}
+      scale: {x: 1, y: 1, z: 1}
+    - name: COVA_L_Ring_Intermediate
+      parentName: COVA_L_Ring_Proximal
+      position: {x: -0.015547904, y: -2.4718347e-10, z: -0.000000017343243}
+      rotation: {x: 0.005572146, y: 0.010318413, z: 0.039356787, w: 0.9991565}
+      scale: {x: 1, y: 1, z: 1}
+    - name: COVA_L_Ring_Distal
+      parentName: COVA_L_Ring_Intermediate
+      position: {x: -0.023992848, y: -0.0000000748676, z: 0.0000000028022404}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: COVA_L_Little_Proximal
+      parentName: COVA_L_Hand
+      position: {x: -0.0931654, y: -0.024024911, z: -0.06667302}
+      rotation: {x: -0.041268516, y: -0.1575407, z: 0.09786449, w: 0.9817843}
+      scale: {x: 1, y: 1, z: 1}
+    - name: COVA_L_Little_Intermediate
+      parentName: COVA_L_Little_Proximal
+      position: {x: -0.010887502, y: 0.0000000111934275, z: -0.00000002052874}
+      rotation: {x: 0.018418593, y: 0.033599317, z: 0.02334807, w: 0.9989929}
+      scale: {x: 1, y: 1, z: 1}
+    - name: COVA_L_Little_Distal
+      parentName: COVA_L_Little_Intermediate
+      position: {x: -0.016127132, y: 0.00000012912714, z: 0.000000018927327}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: COVA_R_Shoulder
+      parentName: COVA_Chest
+      position: {x: -0.11162186, y: 0.004486273, z: -0.063527495}
+      rotation: {x: -0.37159565, y: 0.58519876, z: -0.56080663, w: -0.45271966}
+      scale: {x: 1, y: 1, z: 1}
+    - name: COVA_R_Upper_Arm
+      parentName: COVA_R_Shoulder
+      position: {x: -0.06360669, y: 0.000000022657803, z: 0.000000005651005}
+      rotation: {x: -0.008115943, y: -0.03418417, z: -0.18789046, w: 0.9815614}
+      scale: {x: 1, y: 1, z: 1}
+    - name: COVA_R_Lower_Arm
+      parentName: COVA_R_Upper_Arm
+      position: {x: -0.24638225, y: 0.00000019724192, z: 0.00000021148088}
+      rotation: {x: -0.000011990774, y: -0.0017925457, z: -0.01000058, w: 0.9999484}
+      scale: {x: 1, y: 1, z: 1}
+    - name: COVA_R_Hand
+      parentName: COVA_R_Lower_Arm
+      position: {x: -0.2523236, y: 0.00000016069338, z: -0.000000022401386}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: COVA_R_Thumb_Proximal
+      parentName: COVA_R_Hand
+      position: {x: -0.037717268, y: -0.017342065, z: -0.019657709}
+      rotation: {x: -0.0099023, y: -0.25320184, z: 0.10175153, w: 0.96199656}
+      scale: {x: 1, y: 1, z: 1}
+    - name: COVA_R_Thumb_Intermediate
+      parentName: COVA_R_Thumb_Proximal
+      position: {x: -0.026968356, y: -0.00000005982513, z: 0.000000011039377}
+      rotation: {x: 0.044132657, y: 0.035124075, z: -0.00708838, w: 0.9983829}
+      scale: {x: 1, y: 1, z: 1}
+    - name: COVA_R_Thumb_Distal
+      parentName: COVA_R_Thumb_Intermediate
+      position: {x: -0.02083535, y: 0.00000008284658, z: 0.000000017536236}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: COVA_R_Index_Proximal
+      parentName: COVA_R_Hand
+      position: {x: -0.105000444, y: -0.011830468, z: -0.0050533316}
+      rotation: {x: -0.0031805509, y: 0.0733649, z: 0.12780966, w: 0.9890764}
+      scale: {x: 1, y: 1, z: 1}
+    - name: COVA_R_Index_Intermediate
+      parentName: COVA_R_Index_Proximal
+      position: {x: -0.022930652, y: -0.000000020783482, z: 0.00000002195721}
+      rotation: {x: -0.0014877339, y: -0.0032592705, z: 0.010319783, w: 0.99994034}
+      scale: {x: 1, y: 1, z: 1}
+    - name: COVA_R_Index_Distal
+      parentName: COVA_R_Index_Intermediate
+      position: {x: -0.027674504, y: -0.00000006717278, z: 0.0000000034416503}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: COVA_R_Middle_Proximal
+      parentName: COVA_R_Hand
+      position: {x: -0.1115611, y: -0.012036185, z: 0.02233807}
+      rotation: {x: 0.009482169, y: 0.09663004, z: 0.13170135, w: 0.986523}
+      scale: {x: 1, y: 1, z: 1}
+    - name: COVA_R_Middle_Intermediate
+      parentName: COVA_R_Middle_Proximal
+      position: {x: -0.02313065, y: 0.00000004135847, z: 0.0000000049564424}
+      rotation: {x: -0.007184613, y: -0.01691869, z: 0.023494523, w: 0.999555}
+      scale: {x: 1, y: 1, z: 1}
+    - name: COVA_R_Middle_Distal
+      parentName: COVA_R_Middle_Intermediate
+      position: {x: -0.023607897, y: -0.000000025445697, z: 0.000000031496622}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: COVA_R_Ring_Proximal
+      parentName: COVA_R_Hand
+      position: {x: -0.10293301, y: -0.012595432, z: 0.047157735}
+      rotation: {x: 0.021985149, y: 0.14662704, z: 0.11466833, w: 0.9822771}
+      scale: {x: 1, y: 1, z: 1}
+    - name: COVA_R_Ring_Intermediate
+      parentName: COVA_R_Ring_Proximal
+      position: {x: -0.015549098, y: -0.000000052850872, z: 0.000000008974363}
+      rotation: {x: -0.005563647, y: -0.010300455, z: 0.039359223, w: 0.99915653}
+      scale: {x: 1, y: 1, z: 1}
+    - name: COVA_R_Ring_Distal
+      parentName: COVA_R_Ring_Intermediate
+      position: {x: -0.02399178, y: -0.0000000069939463, z: 0.000000006835735}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: COVA_R_Little_Proximal
+      parentName: COVA_R_Hand
+      position: {x: -0.093172446, y: -0.024025451, z: 0.06667357}
+      rotation: {x: 0.041278843, y: 0.15754645, z: 0.09786734, w: 0.9817826}
+      scale: {x: 1, y: 1, z: 1}
+    - name: COVA_R_Little_Intermediate
+      parentName: COVA_R_Little_Proximal
+      position: {x: -0.010885934, y: 0.000000030081665, z: -0.000000015041229}
+      rotation: {x: -0.018443435, y: -0.03362219, z: 0.023308268, w: 0.9989926}
+      scale: {x: 1, y: 1, z: 1}
+    - name: COVA_R_Little_Distal
+      parentName: COVA_R_Little_Intermediate
+      position: {x: -0.01612891, y: -0.00000004608443, z: 0.000000012045641}
+      rotation: {x: -0.04274814, y: -0.21529314, z: -0.21990569, w: 0.9505067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: COVA_L_Upper_Leg
+      parentName: COVA_Hip
+      position: {x: 0.05975415, y: -0.0048182765, z: 0.075734526}
+      rotation: {x: 0.040739857, y: 0.9982582, z: -0.0016924524, w: 0.04263803}
+      scale: {x: 1, y: 1, z: 1}
+    - name: COVA_L_Lower_Leg
+      parentName: COVA_L_Upper_Leg
+      position: {x: -0.32263416, y: 0.000000025976457, z: -0.000000007798218}
+      rotation: {x: 0.00030856073, y: 0.0072693173, z: 0.04129306, w: 0.9991206}
+      scale: {x: 1, y: 1, z: 1}
+    - name: COVA_L_Foot
+      parentName: COVA_L_Lower_Leg
+      position: {x: -0.4548163, y: 0.000000020554154, z: 0.000000046334065}
+      rotation: {x: -0.082590714, y: -0.009090871, z: -0.58669126, w: 0.8055368}
+      scale: {x: 1, y: 1, z: 1}
+    - name: COVA_L_Toes
+      parentName: COVA_L_Foot
+      position: {x: -0.1253395, y: 2.0273482e-10, z: -0.0000000032984218}
+      rotation: {x: 0.006819436, y: 0.01862864, z: -0.15642849, w: 0.98749006}
+      scale: {x: 1, y: 1, z: 1}
+    - name: COVA_Tiptoe
+      parentName: COVA_L_Toes
+      position: {x: -0.07093251, y: -3.907985e-16, z: -1.7763567e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: COVA_R_Upper_Leg
+      parentName: COVA_Hip
+      position: {x: 0.05975415, y: -0.0048182746, z: -0.07573431}
+      rotation: {x: 0.04073986, y: 0.9982582, z: 0.0016924513, w: -0.042638004}
+      scale: {x: 1, y: 1, z: 1}
+    - name: COVA_R_Lower_Leg
+      parentName: COVA_R_Upper_Leg
+      position: {x: -0.3226339, y: -0.000000008080183, z: 0.00000002098792}
+      rotation: {x: -0.00030853937, y: -0.0072688004, z: 0.041293133, w: 0.9991206}
+      scale: {x: 1, y: 1, z: 1}
+    - name: COVA_R_Foot
+      parentName: COVA_R_Lower_Leg
+      position: {x: -0.45481566, y: 0.000000028792899, z: -0.00000006500108}
+      rotation: {x: 0.08258989, y: 0.009089473, z: -0.5866886, w: 0.80553883}
+      scale: {x: 1, y: 1, z: 1}
+    - name: COVA_R_Toes
+      parentName: COVA_R_Foot
+      position: {x: -0.12533985, y: 0.0000000034285599, z: 0.000000010342055}
+      rotation: {x: -0.006818523, y: -0.018625308, z: -0.15642099, w: 0.9874913}
+      scale: {x: 1, y: 1, z: 1}
+    - name: COVA_Tiptoe 1
+      parentName: COVA_R_Toes
+      position: {x: -0.07093324, y: -1.7763568e-17, z: 5.3290704e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 0.5
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

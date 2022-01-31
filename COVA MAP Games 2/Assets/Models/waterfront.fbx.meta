@@ -1,0 +1,456 @@
+fileFormatVersion: 2
+guid: 85a4112bbf320491fba417c3c27f0367
+ModelImporter:
+  serializedVersion: 21202
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Antina
+  - first:
+      1: 100002
+    second: Containers
+  - first:
+      1: 100004
+    second: Cranes
+  - first:
+      1: 100006
+    second: Docks
+  - first:
+      1: 100008
+    second: EntranceBlock
+  - first:
+      1: 100010
+    second: Jumps
+  - first:
+      1: 100012
+    second: Road
+  - first:
+      1: 100014
+    second: RoadBG
+  - first:
+      1: 100016
+    second: StreetFence
+  - first:
+      1: 100018
+    second: Towers
+  - first:
+      1: 100020
+    second: WarhouseLarge
+  - first:
+      1: 100022
+    second: WarhouseMedium
+  - first:
+      1: 100024
+    second: WarhouseSmall
+  - first:
+      1: 100026
+    second: //RootNode
+  - first:
+      4: 400000
+    second: Antina
+  - first:
+      4: 400002
+    second: Containers
+  - first:
+      4: 400004
+    second: Cranes
+  - first:
+      4: 400006
+    second: Docks
+  - first:
+      4: 400008
+    second: EntranceBlock
+  - first:
+      4: 400010
+    second: Jumps
+  - first:
+      4: 400012
+    second: Road
+  - first:
+      4: 400014
+    second: RoadBG
+  - first:
+      4: 400016
+    second: StreetFence
+  - first:
+      4: 400018
+    second: Towers
+  - first:
+      4: 400020
+    second: WarhouseLarge
+  - first:
+      4: 400022
+    second: WarhouseMedium
+  - first:
+      4: 400024
+    second: WarhouseSmall
+  - first:
+      4: 400026
+    second: //RootNode
+  - first:
+      23: 2300000
+    second: Antina
+  - first:
+      23: 2300002
+    second: Containers
+  - first:
+      23: 2300004
+    second: Cranes
+  - first:
+      23: 2300006
+    second: Docks
+  - first:
+      23: 2300008
+    second: EntranceBlock
+  - first:
+      23: 2300010
+    second: Jumps
+  - first:
+      23: 2300012
+    second: Road
+  - first:
+      23: 2300014
+    second: RoadBG
+  - first:
+      23: 2300016
+    second: StreetFence
+  - first:
+      23: 2300018
+    second: Towers
+  - first:
+      23: 2300020
+    second: WarhouseLarge
+  - first:
+      23: 2300022
+    second: WarhouseMedium
+  - first:
+      23: 2300024
+    second: WarhouseSmall
+  - first:
+      33: 3300000
+    second: Antina
+  - first:
+      33: 3300002
+    second: Containers
+  - first:
+      33: 3300004
+    second: Cranes
+  - first:
+      33: 3300006
+    second: Docks
+  - first:
+      33: 3300008
+    second: EntranceBlock
+  - first:
+      33: 3300010
+    second: Jumps
+  - first:
+      33: 3300012
+    second: Road
+  - first:
+      33: 3300014
+    second: RoadBG
+  - first:
+      33: 3300016
+    second: StreetFence
+  - first:
+      33: 3300018
+    second: Towers
+  - first:
+      33: 3300020
+    second: WarhouseLarge
+  - first:
+      33: 3300022
+    second: WarhouseMedium
+  - first:
+      33: 3300024
+    second: WarhouseSmall
+  - first:
+      43: 4300000
+    second: Towers
+  - first:
+      43: 4300002
+    second: WarhouseSmall
+  - first:
+      43: 4300004
+    second: WarhouseMedium
+  - first:
+      43: 4300006
+    second: Docks
+  - first:
+      43: 4300008
+    second: Cranes
+  - first:
+      43: 4300010
+    second: Jumps
+  - first:
+      43: 4300012
+    second: WarhouseLarge
+  - first:
+      43: 4300014
+    second: Antina
+  - first:
+      43: 4300016
+    second: StreetFence
+  - first:
+      43: 4300018
+    second: EntranceBlock
+  - first:
+      43: 4300020
+    second: Containers
+  - first:
+      43: 4300022
+    second: RoadBG
+  - first:
+      43: 4300024
+    second: Road
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: misc_antina
+    second: {fileID: 2100000, guid: 996d86c9278878346ac5d6555a3cd9f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: misc_asphalt_45d
+    second: {fileID: 2100000, guid: 996d86c9278878346ac5d6555a3cd9f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: misc_drain
+    second: {fileID: 2100000, guid: 996d86c9278878346ac5d6555a3cd9f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: misc_entourage
+    second: {fileID: 2100000, guid: 996d86c9278878346ac5d6555a3cd9f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: misc_road_edge
+    second: {fileID: 2100000, guid: 996d86c9278878346ac5d6555a3cd9f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: misc_road_onesided
+    second: {fileID: 2100000, guid: 996d86c9278878346ac5d6555a3cd9f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: misc_sand_a
+    second: {fileID: 2100000, guid: 996d86c9278878346ac5d6555a3cd9f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: misc_sand_b
+    second: {fileID: 2100000, guid: 996d86c9278878346ac5d6555a3cd9f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: misc_sand_b2a
+    second: {fileID: 2100000, guid: 996d86c9278878346ac5d6555a3cd9f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: misc_sand_top
+    second: {fileID: 2100000, guid: 996d86c9278878346ac5d6555a3cd9f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: seaport_atlas_01
+    second: {fileID: 2100000, guid: 996d86c9278878346ac5d6555a3cd9f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: seaport_atlas_02
+    second: {fileID: 2100000, guid: 996d86c9278878346ac5d6555a3cd9f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: waterfront_crane
+    second: {fileID: 2100000, guid: 996d86c9278878346ac5d6555a3cd9f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: waterfront_dock_side
+    second: {fileID: 2100000, guid: 996d86c9278878346ac5d6555a3cd9f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: waterfront_warehouse_concrete_a
+    second: {fileID: 2100000, guid: 996d86c9278878346ac5d6555a3cd9f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: waterfront_warehouse_concrete_b
+    second: {fileID: 2100000, guid: 996d86c9278878346ac5d6555a3cd9f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: waterfront_warehouse_concrete_c
+    second: {fileID: 2100000, guid: 996d86c9278878346ac5d6555a3cd9f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: waterfront_warehouse_concrete_d
+    second: {fileID: 2100000, guid: 996d86c9278878346ac5d6555a3cd9f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: waterfront_warehouse_concrete_e
+    second: {fileID: 2100000, guid: 996d86c9278878346ac5d6555a3cd9f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: waterfront_warehouse_door
+    second: {fileID: 2100000, guid: 996d86c9278878346ac5d6555a3cd9f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: waterfront_warehouse_door_big
+    second: {fileID: 2100000, guid: 996d86c9278878346ac5d6555a3cd9f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: waterfront_warehouse_fence
+    second: {fileID: 2100000, guid: 996d86c9278878346ac5d6555a3cd9f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: waterfront_warehouse_roof_frame
+    second: {fileID: 2100000, guid: 996d86c9278878346ac5d6555a3cd9f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: waterfront_warehouse_roof_sides
+    second: {fileID: 2100000, guid: 996d86c9278878346ac5d6555a3cd9f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: waterfront_warehouse_roof_top_a
+    second: {fileID: 2100000, guid: 996d86c9278878346ac5d6555a3cd9f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: waterfront_warehouse_roof_top_b
+    second: {fileID: 2100000, guid: 996d86c9278878346ac5d6555a3cd9f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: waterfront_warehouse_wall
+    second: {fileID: 2100000, guid: 996d86c9278878346ac5d6555a3cd9f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: waterfront_warehouse_window_big
+    second: {fileID: 2100000, guid: 996d86c9278878346ac5d6555a3cd9f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: waterfront_warehouse_window_small
+    second: {fileID: 2100000, guid: 996d86c9278878346ac5d6555a3cd9f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: waterfront_warehouse_window_top
+    second: {fileID: 2100000, guid: 996d86c9278878346ac5d6555a3cd9f8, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    nodeNameCollisionStrategy: 0
+    fileIdsGeneration: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 0
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
