@@ -42,15 +42,22 @@ public class Timer : MonoBehaviour
     public void Start()
     {
         time = 20.0f;
+        
+        if (DontDestroy.GameChoice=="Electrical")
+        {
+            time = 10.0f;
+        }
+        
         if (DontDestroy.GameChoice == "Hazards")
         {
             time = 5.0f;
+            Time.timeScale = 1;
         }
-        Time.timeScale = 1;
+        
 
         initialColor = text.color;
 
-        if (DontDestroy.GameChoice == "PPE")
+        if (DontDestroy.GameChoice == "PPE" || DontDestroy.GameChoice == "Electrical")
         {
             CheckButtonPanel.SetActive(true);   //Check button is active to start. Will disappear when time runs out.
         }
@@ -60,12 +67,12 @@ public class Timer : MonoBehaviour
             CheckButtonPanel.SetActive(false);   //Check button is active to start. Will disappear when time runs out.
         }
 
-        if (DontDestroy.GameChoice == "PPE" || DontDestroy.GameChoice == "Valves")
+        if (DontDestroy.GameChoice == "PPE" || DontDestroy.GameChoice == "Valves" || DontDestroy.GameChoice == "Electrical")
         {
             NextButtonPanel.SetActive(false);    //Next button is inactive to start. Will appear when time runs out.
         }
 
-        
+
 
         if (DontDestroy.GameChoice == "PPE")
         {
@@ -78,48 +85,81 @@ public class Timer : MonoBehaviour
 
         //Choose time allowed based on level choice.
 
-        if (DontDestroy.LevelChoice == "Easy")
+        if (DontDestroy.GameChoice == "PPE" || DontDestroy.GameChoice == "Valves")
         {
-            DontDestroy.timeLeft = 60.0f;
+            if (DontDestroy.LevelChoice == "Easy")
+            {
+                DontDestroy.timeLeft = 60.0f;
+            }
+
+
+            else if (DontDestroy.LevelChoice == "Medium")
+            {
+                DontDestroy.timeLeft = 40.0f;
+                easy.enabled = false;
+            }
+
+            else if (DontDestroy.LevelChoice == "Hard")
+            {
+                DontDestroy.timeLeft = 20.0f;  //To be changed back to 20.0
+                easy.enabled = false;
+                medium.enabled = false;
+            }
         }
 
-        else if(DontDestroy.LevelChoice == "Medium")
+        if ( DontDestroy.GameChoice == "Hazards")
         {
-            DontDestroy.timeLeft = 40.0f;
-            easy.enabled = false;
+            if (DontDestroy.LevelChoice == "Easy" )
+            {
+                DontDestroy.timeLeft = 15.0f;
+                easy.enabled = false;
+                medium.enabled = false;
+                hard.enabled = false;
+            }
+
+            else if (DontDestroy.LevelChoice == "Medium" )
+            {
+                DontDestroy.timeLeft = 10.0f;
+                easy.enabled = false;
+                medium.enabled = false;
+                hard.enabled = false;
+            }
+
+            else if (DontDestroy.LevelChoice == "Hard" )
+            {
+                DontDestroy.timeLeft = 5.0f;
+                easy.enabled = false;
+                medium.enabled = false;
+                hard.enabled = false;
+            }
         }
 
-        else if(DontDestroy.LevelChoice == "Hard")
+        if (DontDestroy.GameChoice == "Electrical")
         {
-            DontDestroy.timeLeft = 20.0f;  //To be changed back to 20.0
-            easy.enabled = false;
-            medium.enabled = false;
-        }
+            if (DontDestroy.LevelChoice == "Easy" )
+            {
+                DontDestroy.timeLeft = 30.0f;
+                easy.enabled = true;
+                medium.enabled = true;
+                hard.enabled = true;
+            }
 
-        if (DontDestroy.LevelChoice == "Easy" && DontDestroy.GameChoice == "Hazards")
-        {
-            DontDestroy.timeLeft = 15.0f;
-            easy.enabled = false;
-            medium.enabled = false;
-            hard.enabled = false;
-        }
+            else if (DontDestroy.LevelChoice == "Medium" )
+            {
+                DontDestroy.timeLeft = 20.0f;
+                easy.enabled = false;
+                medium.enabled = true;
+                hard.enabled = true;
+            }
 
-        else if (DontDestroy.LevelChoice == "Medium" && DontDestroy.GameChoice == "Hazards")
-        {
-            DontDestroy.timeLeft = 10.0f;
-            easy.enabled = false;
-            medium.enabled = false;
-            hard.enabled = false;
+            else if (DontDestroy.LevelChoice == "Hard" )
+            {
+                DontDestroy.timeLeft = 10.0f;
+                easy.enabled = false;
+                medium.enabled = false;
+                hard.enabled = true;
+            }
         }
-
-        else if (DontDestroy.LevelChoice == "Hard" && DontDestroy.GameChoice == "Hazards")
-        {
-            DontDestroy.timeLeft = 5.0f;
-            easy.enabled = false;
-            medium.enabled = false;
-            hard.enabled = false;
-        }
-
         //Specific to Hazards game
 
     }
@@ -181,6 +221,25 @@ public class Timer : MonoBehaviour
             }
 
             if (DontDestroy.timeLeft <= 60.0f)
+            {
+                easy.fillAmount -= 1.0f / time * Time.deltaTime;
+            }
+        }
+
+        if (Time.timeSinceLevelLoad > 0.1f && DontDestroy.GameChoice == "Electrical")
+        {
+            DontDestroy.timeLeft -= Time.deltaTime;
+            if (DontDestroy.timeLeft <= 10.0f)
+            {
+                hard.fillAmount -= 1.0f / time * Time.deltaTime;
+            }
+
+            if (DontDestroy.timeLeft <= 20.0f)
+            {
+                medium.fillAmount -= 1.0f / time * Time.deltaTime;
+            }
+
+            if (DontDestroy.timeLeft <= 30.0f)
             {
                 easy.fillAmount -= 1.0f / time * Time.deltaTime;
             }
@@ -250,6 +309,13 @@ public class Timer : MonoBehaviour
                 DontDestroy.NumberCorrect = 0;
                 SceneManager.LoadScene("HazardsChecklist");
             }
+            if (DontDestroy.GameChoice == "Electrical")
+            {
+                //CheckAnswersPPEScript.CheckingAnswers();          NEEDS to BE ON WHEN CHECKING AGAIN!!!!!!!!!!!!!!!!!!!!!!!!!
+                Checked = true;  //So that the if condition is not met again.
+                CheckButtonPanel.SetActive(false);  //Hide check button.
+                NextButtonPanel.SetActive(true);   //Show Next button.
+            }
         }
     }
 
@@ -259,7 +325,7 @@ public class Timer : MonoBehaviour
         Time.timeScale = 0;
     }
 
-    public void ResumeGame ()  //REsume game and timer.
+    public void ResumeGame()  //REsume game and timer.
     {
         Time.timeScale = 1;
     }

@@ -39,6 +39,8 @@ public class DontDestroy : MonoBehaviour
 
     public static float timeLeft = 0.0f;
 
+    public static string WireColor;
+
     void Awake()
     {
         DontDestroyOnLoad(this.gameObject);

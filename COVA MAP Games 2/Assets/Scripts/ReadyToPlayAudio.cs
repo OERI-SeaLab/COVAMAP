@@ -20,7 +20,7 @@ public class ReadyToPlayAudio : MonoBehaviour
 
     private void Start()
     {
-        if (DontDestroy.GameChoice == "PPE" || DontDestroy.GameChoice == "Valves")
+        if (DontDestroy.GameChoice == "PPE" || DontDestroy.GameChoice == "Valves" || DontDestroy.GameChoice == "Electrical")
         {
             CountdownPanel.SetActive(false);
             CountdownNumber1.SetActive(false);
@@ -38,7 +38,7 @@ public class ReadyToPlayAudio : MonoBehaviour
     {
         StopBackGroundMusic();
 
-        if (DontDestroy.GameChoice == "PPE" || DontDestroy.GameChoice == "Valves")
+        if (DontDestroy.GameChoice == "PPE" || DontDestroy.GameChoice == "Valves" || DontDestroy.GameChoice == "Electrical")
         {
             StartCoroutine(CountDownDelay());
         }
@@ -56,7 +56,7 @@ public class ReadyToPlayAudio : MonoBehaviour
 
         CountdownPanel.SetActive(true);
 
-        if (DontDestroy.GameChoice == "PPE" || DontDestroy.GameChoice == "Valves")
+        if (DontDestroy.GameChoice == "PPE" || DontDestroy.GameChoice == "Valves" || DontDestroy.GameChoice == "Electrical")
         {
             if (DontDestroy.ScenarioCounter == 1)
             {
