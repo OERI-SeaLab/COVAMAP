@@ -56,4 +56,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Valves/ScoreboardValves.unity
     guid: 76334d882221b2a4e92583f3c2865c37
+  - enabled: 1
+    path: Assets/Scenes/Electrical/AboutElectrical.unity
+    guid: 6b63805659731c54794523d6cb04de69
+  - enabled: 1
+    path: Assets/Scenes/Electrical/Electrical.unity
+    guid: 790540e9ec6a8f34f89395d2e8ea71cd
   m_configObjects: {}

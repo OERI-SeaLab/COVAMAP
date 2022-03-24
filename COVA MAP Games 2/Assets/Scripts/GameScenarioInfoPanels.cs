@@ -15,14 +15,14 @@ public class GameScenarioInfoPanels : MonoBehaviour
 
     private void Awake()
     {
-        if (DontDestroy.GameChoice == "PPE" || DontDestroy.GameChoice == "Valves")
+        if (DontDestroy.GameChoice == "PPE" || DontDestroy.GameChoice == "Valves" || DontDestroy.GameChoice == "Electrical")
         {
             TimerScript.PauseGame();  //Game starts paused until the scenario instructions are read and the user proceeds to the game.
         }
     }
     void Start()
     {
-        if (DontDestroy.GameChoice == "PPE" || DontDestroy.GameChoice == "Valves")
+        if (DontDestroy.GameChoice == "PPE" || DontDestroy.GameChoice == "Valves" || DontDestroy.GameChoice == "Electrical")
         {
             AboutText.GetComponent<Text>().text = DontDestroy.InstructionsText;  //Pull scenario instructions text that was saved to the DoNotDestroy script.
         }
@@ -45,11 +45,12 @@ public class GameScenarioInfoPanels : MonoBehaviour
         {
             ScenarioText.GetComponent<Text>().text = "Scenario: " + DontDestroy.ScenarioCounter + "/11";
         }
+
     }
 
     public void Update()
     {
-        if (DontDestroy.GameChoice == "PPE" || DontDestroy.GameChoice == "Valves")
+        if (DontDestroy.GameChoice == "PPE" || DontDestroy.GameChoice == "Valves" || DontDestroy.GameChoice == "Electrical")
         {
 
 
@@ -57,9 +58,14 @@ public class GameScenarioInfoPanels : MonoBehaviour
             {
                 AboutTextPanel.SetActive(false);  //Set the panel with the scenario text inactive.
 
-                if (DontDestroy.GameChoice == "PPE" || DontDestroy.GameChoice == "Valves")
+                if (DontDestroy.GameChoice == "PPE" || DontDestroy.GameChoice == "Valves" || DontDestroy.GameChoice == "Electrical")
                 {
                     ReadyToPlayAudioScript.ReadyToPlay();
+                }
+
+                if (DontDestroy.GameChoice == "Electrical")
+                {
+                    ScenarioText.GetComponent<Text>().text = "Scenario: " + DontDestroy.ScenarioCounter + "/8";
                 }
 
             }

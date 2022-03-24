@@ -96,6 +96,14 @@ public class ButtonControls : MonoBehaviour
         Debug.Log(DontDestroy.GameChoice);
     }
 
+    public void ElectricalGameChoiceButton()
+    {
+        GameChoice = "Electrical";
+        DontDestroy.GameChoice = GameChoice;
+        SceneManager.LoadScene("AboutElectrical");
+        Debug.Log(DontDestroy.GameChoice);
+    }
+
     //Press the back button to go back to the choose level scene.
 
     public void GamesBackButton()
@@ -129,6 +137,12 @@ public class ButtonControls : MonoBehaviour
     public void AboutNextButtonHazards() ///also used on scoreboard 
     {
         SceneManager.LoadScene("Hazards");
+        Debug.Log("Game Loaded");
+    }
+
+    public void AboutNextButtonElectrical() ///also used on scoreboard 
+    {
+        SceneManager.LoadScene("Electrical");
         Debug.Log("Game Loaded");
     }
 
