@@ -11,6 +11,7 @@ public class PickBlueWire : MonoBehaviour
 
     private void OnMouseDown()
     {
+        DontDestroy.CableType = "F4";
         DontDestroy.WireColor = "blue";
         Bundle2B.SetActive(false);
         Bundle3B.SetActive(false);

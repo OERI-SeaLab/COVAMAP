@@ -9,6 +9,7 @@ public class PickWhiteWire : MonoBehaviour
     public GameObject Bundle4B;
     private void OnMouseDown()
     {
+        DontDestroy.CableType = "F4";
         DontDestroy.WireColor = "white";
         Bundle2B.SetActive(false);
         Bundle3B.SetActive(false);

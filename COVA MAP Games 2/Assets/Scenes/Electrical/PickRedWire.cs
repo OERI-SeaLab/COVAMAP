@@ -13,6 +13,7 @@ public class PickRedWire : MonoBehaviour
 
     private void OnMouseDown()
     {
+        DontDestroy.CableType = "F4";
         DontDestroy.WireColor = "red";
         Bundle2B.SetActive(false);
         Bundle3B.SetActive(false);
