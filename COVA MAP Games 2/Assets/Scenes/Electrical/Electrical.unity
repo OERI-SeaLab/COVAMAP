@@ -369,7 +369,7 @@ GameObject:
   - component: {fileID: 50377431}
   - component: {fileID: 50377434}
   - component: {fileID: 50377433}
-  - component: {fileID: 50377432}
+  - component: {fileID: 50377435}
   m_Layer: 0
   m_Name: RemoveWireButton1 (8)
   m_TagString: Untagged
@@ -385,27 +385,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 50377430}
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -12.8, y: 10.2, z: -14.2}
+  m_LocalPosition: {x: -12.8, y: 10.2, z: -14.199999}
   m_LocalScale: {x: -0.34874317, y: -0.3487432, z: -0.3487432}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 7967522}
   m_RootOrder: 36
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &50377432
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 50377430}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 74942b7756324724ebb05209dcce5515, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  TheDeleteWireButton1: {fileID: 50377430}
-  Wire1: {fileID: 1727081856}
 --- !u!65 &50377433
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -471,6 +457,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &50377435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 50377430}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 871932a9304bdea4c8f8eff89c60e273, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TheDeleteWireButton9: {fileID: 50377430}
+  Wire9: {fileID: 668942820}
 --- !u!1 &53444606
 GameObject:
   m_ObjectHideFlags: 0
@@ -648,7 +648,7 @@ GameObject:
   - component: {fileID: 180422443}
   - component: {fileID: 180422446}
   - component: {fileID: 180422445}
-  - component: {fileID: 180422444}
+  - component: {fileID: 180422447}
   m_Layer: 0
   m_Name: RemoveWireButton1 (12)
   m_TagString: Untagged
@@ -664,27 +664,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 180422442}
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 3.2, y: 10.2, z: -14.2}
+  m_LocalPosition: {x: 3.2, y: 10.2, z: -14.199999}
   m_LocalScale: {x: -0.34874317, y: -0.3487432, z: -0.3487432}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 7967522}
   m_RootOrder: 44
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &180422444
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 180422442}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 74942b7756324724ebb05209dcce5515, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  TheDeleteWireButton1: {fileID: 180422442}
-  Wire1: {fileID: 1727081856}
 --- !u!65 &180422445
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -750,6 +736,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &180422447
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 180422442}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01c2b88f9b6550549938584fd3c84c76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TheDeleteWireButton13: {fileID: 180422442}
+  Wire13: {fileID: 2105044808}
 --- !u!1 &197178960
 GameObject:
   m_ObjectHideFlags: 0
@@ -761,7 +761,7 @@ GameObject:
   - component: {fileID: 197178961}
   - component: {fileID: 197178964}
   - component: {fileID: 197178963}
-  - component: {fileID: 197178962}
+  - component: {fileID: 197178965}
   m_Layer: 0
   m_Name: RemoveWireButton1 (3)
   m_TagString: Untagged
@@ -777,27 +777,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 197178960}
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 3.49, y: 7.6723504, z: 13.270841}
+  m_LocalPosition: {x: 3.49, y: 7.67235, z: 13.27084}
   m_LocalScale: {x: -0.34874317, y: -0.3487432, z: -0.3487432}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 7967522}
   m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &197178962
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 197178960}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 74942b7756324724ebb05209dcce5515, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  TheDeleteWireButton1: {fileID: 197178960}
-  Wire1: {fileID: 1727081856}
 --- !u!65 &197178963
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -863,6 +849,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &197178965
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 197178960}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a28a8a66094517b4cac4b96de4eaefbe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TheDeleteWireButton4: {fileID: 197178960}
+  Wire4: {fileID: 436446969}
 --- !u!1 &216986031
 GameObject:
   m_ObjectHideFlags: 0
@@ -888,7 +888,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 216986031}
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 156.07909, y: 47.927353, z: -7891.4033}
+  m_LocalPosition: {x: 17658.965, y: -19047.822, z: -15590.603}
   m_LocalScale: {x: 100, y: 99.99998, z: 99.99998}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -994,7 +994,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59c7be1d1edfad649900d52a1d9e558e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wire14: {fileID: 1402122019}
+  wire14: {fileID: 435940740}
   RemoveWireButton14: {fileID: 1161863919}
 --- !u!65 &231373410
 BoxCollider:
@@ -1084,7 +1084,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 239063336}
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 156.07909, y: 47.927353, z: -7891.4033}
+  m_LocalPosition: {x: 17658.965, y: -19047.822, z: -15590.603}
   m_LocalScale: {x: 100, y: 99.99998, z: 99.99998}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1169,13 +1169,13 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 254644602}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -69}
+  m_LocalPosition: {x: 0, y: 0, z: -323.6}
   m_LocalScale: {x: 0.81846714, y: 0.81846714, z: -2.717393}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1325140672}
   m_Father: {fileID: 1674036242}
-  m_RootOrder: 9
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -1231,7 +1231,7 @@ GameObject:
   - component: {fileID: 262056608}
   - component: {fileID: 262056611}
   - component: {fileID: 262056610}
-  - component: {fileID: 262056609}
+  - component: {fileID: 262056612}
   m_Layer: 0
   m_Name: RemoveWireButton1 (15)
   m_TagString: Untagged
@@ -1247,27 +1247,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 262056607}
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 14.3, y: 10.2, z: -14.2}
+  m_LocalPosition: {x: 14.299999, y: 10.2, z: -14.199999}
   m_LocalScale: {x: -0.34874317, y: -0.3487432, z: -0.3487432}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 7967522}
   m_RootOrder: 50
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &262056609
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 262056607}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 74942b7756324724ebb05209dcce5515, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  TheDeleteWireButton1: {fileID: 262056607}
-  Wire1: {fileID: 1727081856}
 --- !u!65 &262056610
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1333,6 +1319,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &262056612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 262056607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a27043ffc1bb0547bf67e395ac6c474, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TheDeleteWireButton16: {fileID: 262056607}
+  Wire16: {fileID: 1642765232}
 --- !u!1 &276913044
 GameObject:
   m_ObjectHideFlags: 0
@@ -1342,6 +1342,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 276913046}
+  - component: {fileID: 276913047}
   m_Layer: 0
   m_Name: ScoringScript NEEDED
   m_TagString: Untagged
@@ -1364,6 +1365,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &276913047
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 276913044}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82fc62c26f9cce24f9b5a8b5ad3cf329, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: {fileID: 1830517322}
 --- !u!1 &305277817
 GameObject:
   m_ObjectHideFlags: 0
@@ -1381,7 +1395,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &305277818
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1469,14 +1483,14 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 2142846947}
+  - {fileID: 2076223308}
   - {fileID: 863502507}
   - {fileID: 1821080762}
-  - {fileID: 2076223308}
   - {fileID: 675879299}
+  - {fileID: 651530911}
   - {fileID: 83157780}
   - {fileID: 546445020}
-  - {fileID: 651530911}
+  - {fileID: 2142846947}
   m_Father: {fileID: 1191917440}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1490,6 +1504,19 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 3729097636174123029, guid: 980ebf904e5ad00439ca860f6251f590, type: 3}
   m_PrefabInstance: {fileID: 337956512}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &316504504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 316504500}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81ce1d2965a96314f9fb6eca1b867cd0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TheWireType: 0
 --- !u!1001 &337956512
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1562,6 +1589,10 @@ PrefabInstance:
       value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: -7082085835528194717, guid: 980ebf904e5ad00439ca860f6251f590, type: 3}
+      propertyPath: m_Name
+      value: sweep15_sweep15
+      objectReference: {fileID: 0}
+    - target: {fileID: -7082085835528194717, guid: 980ebf904e5ad00439ca860f6251f590, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
@@ -1590,12 +1621,20 @@ PrefabInstance:
       value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: -2931216446469244393, guid: 980ebf904e5ad00439ca860f6251f590, type: 3}
+      propertyPath: m_Name
+      value: sweep14_sweep14.
+      objectReference: {fileID: 0}
+    - target: {fileID: -2931216446469244393, guid: 980ebf904e5ad00439ca860f6251f590, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -2931216446469244393, guid: 980ebf904e5ad00439ca860f6251f590, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: -2272913289552702513, guid: 980ebf904e5ad00439ca860f6251f590, type: 3}
+      propertyPath: m_Name
+      value: sweep13_sweep13.
       objectReference: {fileID: 0}
     - target: {fileID: -2272913289552702513, guid: 980ebf904e5ad00439ca860f6251f590, type: 3}
       propertyPath: m_IsActive
@@ -1642,6 +1681,10 @@ PrefabInstance:
       value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 2366537353970395137, guid: 980ebf904e5ad00439ca860f6251f590, type: 3}
+      propertyPath: m_Name
+      value: sweep12_sweep12.
+      objectReference: {fileID: 0}
+    - target: {fileID: 2366537353970395137, guid: 980ebf904e5ad00439ca860f6251f590, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
@@ -1650,6 +1693,10 @@ PrefabInstance:
       value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 2658357042334414272, guid: 980ebf904e5ad00439ca860f6251f590, type: 3}
+      propertyPath: m_Name
+      value: sweep16_sweep16.
+      objectReference: {fileID: 0}
+    - target: {fileID: 2658357042334414272, guid: 980ebf904e5ad00439ca860f6251f590, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
@@ -1688,6 +1735,10 @@ PrefabInstance:
     - target: {fileID: 5587080894842602185, guid: 980ebf904e5ad00439ca860f6251f590, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5847305712488823095, guid: 980ebf904e5ad00439ca860f6251f590, type: 3}
+      propertyPath: m_Name
+      value: sweep10_sweep10.
       objectReference: {fileID: 0}
     - target: {fileID: 5847305712488823095, guid: 980ebf904e5ad00439ca860f6251f590, type: 3}
       propertyPath: m_IsActive
@@ -1704,6 +1755,19 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 2366537353970395137, guid: 980ebf904e5ad00439ca860f6251f590, type: 3}
   m_PrefabInstance: {fileID: 337956512}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &364213758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 364213754}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81ce1d2965a96314f9fb6eca1b867cd0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TheWireType: 0
 --- !u!1 &372962821
 GameObject:
   m_ObjectHideFlags: 0
@@ -1887,7 +1951,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 407296177}
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 156.07909, y: 47.927353, z: -7891.4033}
+  m_LocalPosition: {x: 17658.965, y: -19047.822, z: -15590.603}
   m_LocalScale: {x: 100, y: 99.99998, z: 99.99998}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1935,7 +1999,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: b4f8d8c64fa314841a02fc1b5c0870f0, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 1b2e6c3e99d01c94ebf6dfb118a705f2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1971,7 +2035,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 408805532}
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 156.07909, y: 47.927353, z: -7891.4033}
+  m_LocalPosition: {x: 17658.965, y: -19047.822, z: -15590.603}
   m_LocalScale: {x: 100, y: 99.99998, z: 99.99998}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2175,18 +2239,44 @@ Transform:
   - {fileID: 1808445757}
   - {fileID: 889939302}
   m_Father: {fileID: 1674036242}
-  m_RootOrder: 13
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &435940740 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -2931216446469244393, guid: 980ebf904e5ad00439ca860f6251f590, type: 3}
   m_PrefabInstance: {fileID: 337956512}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &435940744
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 435940740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81ce1d2965a96314f9fb6eca1b867cd0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TheWireType: 0
 --- !u!1 &436446969 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 534583052922466180, guid: 980ebf904e5ad00439ca860f6251f590, type: 3}
   m_PrefabInstance: {fileID: 337956512}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &436446973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 436446969}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81ce1d2965a96314f9fb6eca1b867cd0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TheWireType: 0
 --- !u!1 &444839498
 GameObject:
   m_ObjectHideFlags: 0
@@ -2221,6 +2311,7 @@ MonoBehaviour:
   time: 0
   CheckAnswersPPEScript: {fileID: 0}
   ScoringPPEScript: {fileID: 0}
+  CheckAnswersElectricalScript: {fileID: 2060462326}
   NextButtonPanel: {fileID: 2128916533}
   CheckButtonPanel: {fileID: 254644602}
   AboutValvePanel: {fileID: 0}
@@ -2355,7 +2446,7 @@ GameObject:
   - component: {fileID: 482553468}
   - component: {fileID: 482553471}
   - component: {fileID: 482553470}
-  - component: {fileID: 482553469}
+  - component: {fileID: 482553472}
   m_Layer: 0
   m_Name: RemoveWireButton1 (2)
   m_TagString: Untagged
@@ -2371,52 +2462,15 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 482553467}
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 7.21, y: 7.6723504, z: 13.270841}
+  m_LocalPosition: {x: 7.21, y: 7.67235, z: 13.27084}
   m_LocalScale: {x: -0.34874317, y: -0.3487432, z: -0.3487432}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 7967522}
   m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &482553469
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 482553467}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 74942b7756324724ebb05209dcce5515, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-<<<<<<< Updated upstream
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: e4218b61639e5cb4b82125df492a77e1, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 1
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &546445022
-CanvasRenderer:
-=======
-  TheDeleteWireButton1: {fileID: 482553467}
-  Wire1: {fileID: 1727081856}
 --- !u!65 &482553470
 BoxCollider:
->>>>>>> Stashed changes
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -2480,6 +2534,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &482553472
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 482553467}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7138d08ab501cc54a84fa25c62c965b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TheDeleteWireButton3: {fileID: 482553467}
+  Wire3: {fileID: 1459514542}
 --- !u!1 &546445019
 GameObject:
   m_ObjectHideFlags: 0
@@ -2539,7 +2607,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 972d7bf55d41d184883044af8e809e30, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e4218b61639e5cb4b82125df492a77e1, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -2681,7 +2749,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f10ca469c99c674a8c521d34abc484c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AllScenarioImages: {fileID: 308088934}
+  hard: {fileID: 1492324035}
+  medium: {fileID: 23097998}
+  easy: {fileID: 783371455}
+  NextButtonPanel: {fileID: 2128916533}
   ScenarioImages:
   - {fileID: 2142846946}
   - {fileID: 863502506}
@@ -2723,7 +2794,7 @@ RectTransform:
   m_Children:
   - {fileID: 407296178}
   m_Father: {fileID: 308088935}
-  m_RootOrder: 7
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
@@ -2799,7 +2870,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1674036242}
-  m_RootOrder: 12
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -2849,6 +2920,19 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 5176134957687862945, guid: 980ebf904e5ad00439ca860f6251f590, type: 3}
   m_PrefabInstance: {fileID: 337956512}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &668942824
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 668942820}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81ce1d2965a96314f9fb6eca1b867cd0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TheWireType: 0
 --- !u!1 &675879298
 GameObject:
   m_ObjectHideFlags: 0
@@ -2881,7 +2965,7 @@ RectTransform:
   m_Children:
   - {fileID: 408805533}
   m_Father: {fileID: 308088935}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
@@ -2937,7 +3021,7 @@ GameObject:
   - component: {fileID: 675999779}
   - component: {fileID: 675999782}
   - component: {fileID: 675999781}
-  - component: {fileID: 675999780}
+  - component: {fileID: 675999783}
   m_Layer: 0
   m_Name: RemoveWireButton1 (10)
   m_TagString: Untagged
@@ -2953,27 +3037,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 675999778}
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -5.7, y: 10.2, z: -14.2}
+  m_LocalPosition: {x: -5.699999, y: 10.2, z: -14.199999}
   m_LocalScale: {x: -0.34874317, y: -0.3487432, z: -0.3487432}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 7967522}
   m_RootOrder: 40
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &675999780
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 675999778}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 74942b7756324724ebb05209dcce5515, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  TheDeleteWireButton1: {fileID: 675999778}
-  Wire1: {fileID: 1727081856}
 --- !u!65 &675999781
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3039,6 +3109,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &675999783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 675999778}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bfe34f40b233e749b69d6d251fce164, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TheDeleteWireButton11: {fileID: 675999778}
+  Wire11: {fileID: 1607908074}
 --- !u!1 &684007238
 GameObject:
   m_ObjectHideFlags: 0
@@ -3278,7 +3362,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d501fcb464ff3949bf64832258e09a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wire12: {fileID: 1642765232}
+  wire12: {fileID: 364213754}
   RemoveWireButton12: {fileID: 1962335834}
 --- !u!65 &707811868
 BoxCollider:
@@ -3632,13 +3716,8 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-<<<<<<< Updated upstream
-  m_IsActive: 0
---- !u!224 &846445496
-=======
   m_IsActive: 1
 --- !u!224 &783371454
->>>>>>> Stashed changes
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3758,15 +3837,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-<<<<<<< Updated upstream
-  m_Sprite: {fileID: 21300000, guid: 454bd09a5b8a0584e9a01ca7d600af81, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 1
-=======
   m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
   m_Type: 1
   m_PreserveAspect: 0
->>>>>>> Stashed changes
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -3793,7 +3866,7 @@ GameObject:
   - component: {fileID: 800633256}
   - component: {fileID: 800633259}
   - component: {fileID: 800633258}
-  - component: {fileID: 800633257}
+  - component: {fileID: 800633260}
   m_Layer: 0
   m_Name: RemoveWireButton1 (6)
   m_TagString: Untagged
@@ -3809,27 +3882,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 800633255}
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -9.5, y: 7.6723504, z: 13.270841}
+  m_LocalPosition: {x: -9.5, y: 7.67235, z: 13.27084}
   m_LocalScale: {x: -0.34874317, y: -0.3487432, z: -0.3487432}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 7967522}
   m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &800633257
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 800633255}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 74942b7756324724ebb05209dcce5515, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  TheDeleteWireButton1: {fileID: 800633255}
-  Wire1: {fileID: 1727081856}
 --- !u!65 &800633258
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3895,6 +3954,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &800633260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 800633255}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81044c67770a75242972c8b8fb9d2a63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TheDeleteWireButton7: {fileID: 800633255}
+  Wire7: {fileID: 2016837871}
 --- !u!1 &839644123
 GameObject:
   m_ObjectHideFlags: 0
@@ -4104,7 +4177,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &846445496
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4250,7 +4323,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 773ed6bd60c08ef408b185ab3ad83a62, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 454bd09a5b8a0584e9a01ca7d600af81, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -4413,7 +4486,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 087d043ae617836499c100995f09e840, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wire13: {fileID: 364213754}
+  wire13: {fileID: 2105044808}
   RemoveWireButton13: {fileID: 180422442}
 --- !u!65 &887178742
 BoxCollider:
@@ -4982,6 +5055,7 @@ GameObject:
   - component: {fileID: 937408871}
   - component: {fileID: 937408873}
   - component: {fileID: 937408872}
+  - component: {fileID: 937408874}
   m_Layer: 0
   m_Name: RemoveWireButton1 (1)
   m_TagString: Untagged
@@ -5069,6 +5143,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &937408874
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 937408870}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 828f3fcfa8354124289c5eba45837660, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TheDeleteWireButton2: {fileID: 937408870}
+  Wire2: {fileID: 1454696708}
 --- !u!1 &967047732
 GameObject:
   m_ObjectHideFlags: 0
@@ -5274,6 +5362,7 @@ MonoBehaviour:
   Bundle2B: {fileID: 1304077488}
   Bundle3B: {fileID: 305277817}
   Bundle4B: {fileID: 48322518}
+  AllWiresInvisableToStartScript: {fileID: 1702108711}
 --- !u!65 &975416245
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5312,7 +5401,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1011093031}
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 156.07909, y: 47.927353, z: -7891.4033}
+  m_LocalPosition: {x: 17658.965, y: -19047.822, z: -15590.603}
   m_LocalScale: {x: 100, y: 99.99998, z: 99.99998}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5360,7 +5449,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 972d7bf55d41d184883044af8e809e30, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e4218b61639e5cb4b82125df492a77e1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -5465,6 +5554,19 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: -3173557585945774014, guid: 980ebf904e5ad00439ca860f6251f590, type: 3}
   m_PrefabInstance: {fileID: 337956512}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1055380900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1055380896}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81ce1d2965a96314f9fb6eca1b867cd0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TheWireType: 0
 --- !u!1 &1064316364
 GameObject:
   m_ObjectHideFlags: 0
@@ -5512,7 +5614,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f50872429313c044f91631526b4faca3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wire15: {fileID: 2105044808}
+  wire15: {fileID: 1154879403}
   RemoveWireButton15: {fileID: 1325990060}
 --- !u!65 &1064316367
 BoxCollider:
@@ -5588,6 +5690,8 @@ GameObject:
   - component: {fileID: 1073979615}
   - component: {fileID: 1073979617}
   - component: {fileID: 1073979616}
+  - component: {fileID: 1073979618}
+  - component: {fileID: 1073979619}
   m_Layer: 5
   m_Name: WhiteWire2DCollider
   m_TagString: Untagged
@@ -5603,7 +5707,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1073979614}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0}
+  m_LocalPosition: {x: 0, y: 0, z: -6.4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5612,7 +5716,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -16.07, y: -2.92}
+  m_AnchoredPosition: {x: -7.3, y: -2.9}
   m_SizeDelta: {x: -40.94, y: -39.89}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1073979616
@@ -5653,6 +5757,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1073979614}
   m_CullTransparentMesh: 1
+--- !u!114 &1073979618
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1073979614}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef8f2733d14715946840e37c38944ddf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Bundle2B: {fileID: 1304077488}
+  Bundle3B: {fileID: 305277817}
+  Bundle4B: {fileID: 48322518}
+  AllWiresInvisableToStartScript: {fileID: 1702108711}
+--- !u!65 &1073979619
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1073979614}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 39.213074, y: 66.66, z: 10}
+  m_Center: {x: -1.6384602, y: 0, z: 0}
 --- !u!1 &1082601532
 GameObject:
   m_ObjectHideFlags: 0
@@ -5664,7 +5797,7 @@ GameObject:
   - component: {fileID: 1082601533}
   - component: {fileID: 1082601536}
   - component: {fileID: 1082601535}
-  - component: {fileID: 1082601534}
+  - component: {fileID: 1082601537}
   m_Layer: 0
   m_Name: RemoveWireButton1 (4)
   m_TagString: Untagged
@@ -5680,27 +5813,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1082601532}
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -2.1, y: 7.6723504, z: 13.270841}
+  m_LocalPosition: {x: -2.0999997, y: 7.67235, z: 13.27084}
   m_LocalScale: {x: -0.34874317, y: -0.3487432, z: -0.3487432}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 7967522}
   m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &1082601534
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1082601532}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 74942b7756324724ebb05209dcce5515, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  TheDeleteWireButton1: {fileID: 1082601532}
-  Wire1: {fileID: 1727081856}
 --- !u!65 &1082601535
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5766,6 +5885,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1082601537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1082601532}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 679a26aaaf2f2fe4baff32ab37ae22ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TheDeleteWireButton5: {fileID: 1082601532}
+  Wire5: {fileID: 1667916793}
 --- !u!1 &1109015516
 GameObject:
   m_ObjectHideFlags: 0
@@ -5777,7 +5910,7 @@ GameObject:
   - component: {fileID: 1109015517}
   - component: {fileID: 1109015520}
   - component: {fileID: 1109015519}
-  - component: {fileID: 1109015518}
+  - component: {fileID: 1109015521}
   m_Layer: 0
   m_Name: RemoveWireButton1 (5)
   m_TagString: Untagged
@@ -5793,27 +5926,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1109015516}
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -5.89, y: 7.6723504, z: 13.270841}
+  m_LocalPosition: {x: -5.89, y: 7.67235, z: 13.27084}
   m_LocalScale: {x: -0.34874317, y: -0.3487432, z: -0.3487432}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 7967522}
   m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &1109015518
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1109015516}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 74942b7756324724ebb05209dcce5515, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  TheDeleteWireButton1: {fileID: 1109015516}
-  Wire1: {fileID: 1727081856}
 --- !u!65 &1109015519
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5879,6 +5998,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1109015521
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1109015516}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42d62ee7f654bf24ebd0c6a3ae0342e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TheDeleteWireButton6: {fileID: 1109015516}
+  Wire6: {fileID: 1055380896}
 --- !u!1 &1112270445
 GameObject:
   m_ObjectHideFlags: 0
@@ -6075,6 +6208,19 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: -7082085835528194717, guid: 980ebf904e5ad00439ca860f6251f590, type: 3}
   m_PrefabInstance: {fileID: 337956512}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1154879407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1154879403}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81ce1d2965a96314f9fb6eca1b867cd0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TheWireType: 0
 --- !u!1 &1161863919
 GameObject:
   m_ObjectHideFlags: 0
@@ -6086,7 +6232,7 @@ GameObject:
   - component: {fileID: 1161863920}
   - component: {fileID: 1161863923}
   - component: {fileID: 1161863922}
-  - component: {fileID: 1161863921}
+  - component: {fileID: 1161863924}
   m_Layer: 0
   m_Name: RemoveWireButton1 (13)
   m_TagString: Untagged
@@ -6102,27 +6248,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1161863919}
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 7, y: 10.2, z: -14.2}
+  m_LocalPosition: {x: 6.9999995, y: 10.2, z: -14.199999}
   m_LocalScale: {x: -0.34874317, y: -0.3487432, z: -0.3487432}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 7967522}
   m_RootOrder: 46
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &1161863921
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1161863919}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 74942b7756324724ebb05209dcce5515, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  TheDeleteWireButton1: {fileID: 1161863919}
-  Wire1: {fileID: 1727081856}
 --- !u!65 &1161863922
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6188,6 +6320,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1161863924
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1161863919}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e45359e27c82b94e8b26e995362372e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TheDeleteWireButton14: {fileID: 1161863919}
+  Wire14: {fileID: 435940740}
 --- !u!1 &1191917439
 GameObject:
   m_ObjectHideFlags: 0
@@ -6458,7 +6604,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 9192d28c3f0e413489d122dcdc08faeb, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c820d130f3c5615468b897d60a191076, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -7074,9 +7220,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1308363937}
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 27355.88, y: -10664.322, z: -14845.402}
-  m_LocalScale: {x: 2047.4371, y: 2047.4363, z: 2047.4363}
-  m_ConstrainProportionsScale: 1
+  m_LocalPosition: {x: 17658.965, y: -19047.822, z: -15590.603}
+  m_LocalScale: {x: 100, y: 99.99998, z: 99.99998}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 863502507}
   m_RootOrder: 0
@@ -7122,7 +7268,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 773ed6bd60c08ef408b185ab3ad83a62, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 454bd09a5b8a0584e9a01ca7d600af81, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -7240,7 +7386,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1325140671}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -68}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -7250,7 +7396,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 55, y: -128}
+  m_AnchoredPosition: {x: -10, y: -120}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1325140673
@@ -7297,21 +7443,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: CheckButton, Assembly-CSharp
-        m_MethodName: CheckDirections
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: ScoringPPE, Assembly-CSharp
-        m_MethodName: GetScore
+      - m_Target: {fileID: 2060462326}
+        m_TargetAssemblyTypeName: CheckAnswers, Assembly-CSharp
+        m_MethodName: CheckAnswerElectrical
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7370,7 +7504,7 @@ GameObject:
   - component: {fileID: 1325990061}
   - component: {fileID: 1325990064}
   - component: {fileID: 1325990063}
-  - component: {fileID: 1325990062}
+  - component: {fileID: 1325990065}
   m_Layer: 0
   m_Name: RemoveWireButton1 (14)
   m_TagString: Untagged
@@ -7386,27 +7520,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1325990060}
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 10.8, y: 10.2, z: -14.2}
+  m_LocalPosition: {x: 10.8, y: 10.2, z: -14.199999}
   m_LocalScale: {x: -0.34874317, y: -0.3487432, z: -0.3487432}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 7967522}
   m_RootOrder: 48
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &1325990062
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1325990060}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 74942b7756324724ebb05209dcce5515, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  TheDeleteWireButton1: {fileID: 1325990060}
-  Wire1: {fileID: 1727081856}
 --- !u!65 &1325990063
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7472,6 +7592,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1325990065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1325990060}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4dadd7b7ef31324e94da07737be2aa0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TheDeleteWireButton15: {fileID: 1325990060}
+  Wire15: {fileID: 1154879403}
 --- !u!1 &1331492587
 GameObject:
   m_ObjectHideFlags: 0
@@ -7675,7 +7809,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0.392}
+  m_AnchoredPosition: {x: 0, y: -0.009}
   m_SizeDelta: {x: 33, y: 34.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1362014818
@@ -7755,6 +7889,8 @@ GameObject:
   - component: {fileID: 1384027830}
   - component: {fileID: 1384027832}
   - component: {fileID: 1384027831}
+  - component: {fileID: 1384027833}
+  - component: {fileID: 1384027834}
   m_Layer: 5
   m_Name: BlackWire2DCollider
   m_TagString: Untagged
@@ -7770,7 +7906,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1384027829}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -6.7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7779,7 +7915,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 24.16, y: 7.13}
+  m_AnchoredPosition: {x: 26.9, y: 7.1}
   m_SizeDelta: {x: -47.94, y: -52.53}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1384027831
@@ -7820,11 +7956,53 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1384027829}
   m_CullTransparentMesh: 1
+--- !u!114 &1384027833
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1384027829}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83cbade326d760f4e9de94206089e322, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Bundle2B: {fileID: 1304077488}
+  Bundle3B: {fileID: 305277817}
+  Bundle4B: {fileID: 48322518}
+  AllWiresInvisableToStartScript: {fileID: 1702108711}
+--- !u!65 &1384027834
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1384027829}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 29.854212, y: 44.338173, z: 10}
+  m_Center: {x: 2.207105, y: -1.3340863, z: 2.220446e-14}
 --- !u!1 &1402122019 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5847305712488823095, guid: 980ebf904e5ad00439ca860f6251f590, type: 3}
   m_PrefabInstance: {fileID: 337956512}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1402122023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1402122019}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81ce1d2965a96314f9fb6eca1b867cd0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TheWireType: 0
 --- !u!1 &1410592178
 GameObject:
   m_ObjectHideFlags: 0
@@ -7918,7 +8096,7 @@ GameObject:
   - component: {fileID: 1417477783}
   - component: {fileID: 1417477786}
   - component: {fileID: 1417477785}
-  - component: {fileID: 1417477784}
+  - component: {fileID: 1417477787}
   m_Layer: 0
   m_Name: RemoveWireButton1 (9)
   m_TagString: Untagged
@@ -7934,27 +8112,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1417477782}
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -9.1, y: 10.2, z: -14.2}
+  m_LocalPosition: {x: -9.1, y: 10.2, z: -14.199999}
   m_LocalScale: {x: -0.34874317, y: -0.3487432, z: -0.3487432}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 7967522}
   m_RootOrder: 38
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &1417477784
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1417477782}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 74942b7756324724ebb05209dcce5515, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  TheDeleteWireButton1: {fileID: 1417477782}
-  Wire1: {fileID: 1727081856}
 --- !u!65 &1417477785
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8020,16 +8184,56 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1417477787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1417477782}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c39166774d7e1c34c97dcc6ccad17060, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TheDeleteWireButton10: {fileID: 1417477782}
+  Wire10: {fileID: 1402122019}
 --- !u!1 &1454696708 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -1326649226690033636, guid: 980ebf904e5ad00439ca860f6251f590, type: 3}
   m_PrefabInstance: {fileID: 337956512}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1454696712
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1454696708}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81ce1d2965a96314f9fb6eca1b867cd0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TheWireType: 0
 --- !u!1 &1459514542 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1148220535112538118, guid: 980ebf904e5ad00439ca860f6251f590, type: 3}
   m_PrefabInstance: {fileID: 337956512}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1459514546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1459514542}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81ce1d2965a96314f9fb6eca1b867cd0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TheWireType: 0
 --- !u!1 &1474423954
 GameObject:
   m_ObjectHideFlags: 0
@@ -8122,7 +8326,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1485777714}
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 156.07909, y: 47.927353, z: -7891.4033}
+  m_LocalPosition: {x: 17658.965, y: -19047.822, z: -15590.603}
   m_LocalScale: {x: 100, y: 99.99998, z: 99.99998}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8216,13 +8420,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-<<<<<<< Updated upstream
-  m_AnchoredPosition: {x: 0, y: -0.026}
-  m_SizeDelta: {x: 33, y: 34.7}
-=======
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 35, y: 35}
->>>>>>> Stashed changes
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1492324035
 MonoBehaviour:
@@ -8431,6 +8630,7 @@ MonoBehaviour:
   Bundle2B: {fileID: 1304077488}
   Bundle3B: {fileID: 305277817}
   Bundle4B: {fileID: 48322518}
+  AllWiresInvisableToStartScript: {fileID: 1702108711}
 --- !u!65 &1559262492
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8495,16 +8695,55 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: -5739547190148154678, guid: 980ebf904e5ad00439ca860f6251f590, type: 3}
   m_PrefabInstance: {fileID: 337956512}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1607908078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1607908074}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81ce1d2965a96314f9fb6eca1b867cd0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TheWireType: 0
 --- !u!1 &1642765232 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2658357042334414272, guid: 980ebf904e5ad00439ca860f6251f590, type: 3}
   m_PrefabInstance: {fileID: 337956512}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1642765236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1642765232}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81ce1d2965a96314f9fb6eca1b867cd0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TheWireType: 0
 --- !u!1 &1667916793 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -8447373456262438506, guid: 980ebf904e5ad00439ca860f6251f590, type: 3}
   m_PrefabInstance: {fileID: 337956512}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1667916797
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1667916793}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81ce1d2965a96314f9fb6eca1b867cd0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TheWireType: 0
 --- !u!1 &1674036238
 GameObject:
   m_ObjectHideFlags: 0
@@ -8606,11 +8845,11 @@ RectTransform:
   - {fileID: 1931828735}
   - {fileID: 1331492588}
   - {fileID: 35540814}
-  - {fileID: 254644603}
-  - {fileID: 2128916534}
   - {fileID: 2060012493}
   - {fileID: 659019723}
   - {fileID: 431670929}
+  - {fileID: 2128916534}
+  - {fileID: 254644603}
   m_Father: {fileID: 0}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: -18.044, z: 0}
@@ -8627,12 +8866,11 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1687258585}
+  - component: {fileID: 1687258587}
   - component: {fileID: 1687258584}
   - component: {fileID: 1687258582}
   - component: {fileID: 1687258586}
   - component: {fileID: 1687258583}
-  - component: {fileID: 1687258587}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -8674,7 +8912,7 @@ Camera:
   m_GameObject: {fileID: 1687258581}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 2
+  m_ClearFlags: 1
   m_BackGroundColor: {r: 0.09162514, g: 0.13903853, b: 0.2735849, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
@@ -8708,21 +8946,6 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
---- !u!4 &1687258585
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1687258581}
-  m_LocalRotation: {x: 0.7020036, y: 0.0019116665, z: -0.0018768606, w: 0.71216846}
-  m_LocalPosition: {x: -0.03563228, y: 2.42, z: -0.036090493}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 75.469, y: 0, z: 0}
 --- !u!114 &1687258586
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8756,46 +8979,21 @@ MonoBehaviour:
   m_RequiresDepthTexture: 0
   m_RequiresColorTexture: 0
   m_Version: 2
---- !u!114 &1687258587
-MonoBehaviour:
+--- !u!4 &1687258587
+Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1687258581}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: be76e5f14cfee674cb30b491fb72b09b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  boost: 0.5
-  positionLerpTime: 0.7
-  mouseSensitivityCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0.5
-      inSlope: 0
-      outSlope: 5
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    - serializedVersion: 3
-      time: 1
-      value: 2.5
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  rotationLerpTime: 0.7
-  invertY: 0
+  m_LocalRotation: {x: 0.7078817, y: -0, z: -0, w: 0.706331}
+  m_LocalPosition: {x: -0.2, y: 2.42, z: -0.16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 90.127014, y: 0, z: 0}
 --- !u!1 &1698489392
 GameObject:
   m_ObjectHideFlags: 0
@@ -8920,12 +9118,11 @@ GameObject:
   - component: {fileID: 1702108706}
   - component: {fileID: 1702108709}
   - component: {fileID: 1702108708}
-  - component: {fileID: 1702108710}
   - component: {fileID: 1702108711}
-  - component: {fileID: 1702108715}
   - component: {fileID: 1702108714}
   - component: {fileID: 1702108713}
   - component: {fileID: 1702108712}
+  - component: {fileID: 1702108710}
   - component: {fileID: 1702108720}
   - component: {fileID: 1702108719}
   - component: {fileID: 1702108718}
@@ -8941,6 +9138,22 @@ GameObject:
   - component: {fileID: 1702108723}
   - component: {fileID: 1702108722}
   - component: {fileID: 1702108721}
+  - component: {fileID: 1702108746}
+  - component: {fileID: 1702108745}
+  - component: {fileID: 1702108744}
+  - component: {fileID: 1702108743}
+  - component: {fileID: 1702108742}
+  - component: {fileID: 1702108741}
+  - component: {fileID: 1702108740}
+  - component: {fileID: 1702108739}
+  - component: {fileID: 1702108738}
+  - component: {fileID: 1702108737}
+  - component: {fileID: 1702108736}
+  - component: {fileID: 1702108735}
+  - component: {fileID: 1702108734}
+  - component: {fileID: 1702108733}
+  - component: {fileID: 1702108732}
+  - component: {fileID: 1702108731}
   m_Layer: 0
   m_Name: WireScript
   m_TagString: Untagged
@@ -9052,6 +9265,38 @@ MonoBehaviour:
   - {fileID: 2105044808}
   - {fileID: 1154879403}
   - {fileID: 888999146}
+  - {fileID: 937408870}
+  - {fileID: 482553467}
+  - {fileID: 197178960}
+  - {fileID: 1082601532}
+  - {fileID: 1109015516}
+  - {fileID: 800633255}
+  - {fileID: 1903180028}
+  - {fileID: 50377430}
+  - {fileID: 1417477782}
+  - {fileID: 675999778}
+  - {fileID: 1962335834}
+  - {fileID: 180422442}
+  - {fileID: 1161863919}
+  - {fileID: 1325990060}
+  - {fileID: 262056607}
+  AllConnectors:
+  - {fileID: 919266218}
+  - {fileID: 901826249}
+  - {fileID: 967047732}
+  - {fileID: 1698489392}
+  - {fileID: 412596805}
+  - {fileID: 710445401}
+  - {fileID: 844972723}
+  - {fileID: 690495574}
+  - {fileID: 1112270445}
+  - {fileID: 2083817106}
+  - {fileID: 372962821}
+  - {fileID: 707811865}
+  - {fileID: 887178739}
+  - {fileID: 231373407}
+  - {fileID: 1064316364}
+  - {fileID: 2119615114}
 --- !u!114 &1702108712
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9067,6 +9312,7 @@ MonoBehaviour:
   Bundle2B: {fileID: 0}
   Bundle3B: {fileID: 0}
   Bundle4B: {fileID: 0}
+  AllWiresInvisableToStartScript: {fileID: 0}
 --- !u!114 &1702108713
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9082,6 +9328,7 @@ MonoBehaviour:
   Bundle2B: {fileID: 0}
   Bundle3B: {fileID: 0}
   Bundle4B: {fileID: 0}
+  AllWiresInvisableToStartScript: {fileID: 0}
 --- !u!114 &1702108714
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9097,20 +9344,7 @@ MonoBehaviour:
   Bundle2B: {fileID: 0}
   Bundle3B: {fileID: 0}
   Bundle4B: {fileID: 0}
---- !u!114 &1702108715
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1702108705}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 74942b7756324724ebb05209dcce5515, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  TheDeleteWireButton1: {fileID: 0}
-  Wire1: {fileID: 0}
+  AllWiresInvisableToStartScript: {fileID: 0}
 --- !u!114 &1702108716
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9321,11 +9555,248 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   wire8: {fileID: 0}
   RemoveWireButton8: {fileID: 0}
+--- !u!114 &1702108731
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1702108705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a27043ffc1bb0547bf67e395ac6c474, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TheDeleteWireButton16: {fileID: 0}
+  Wire16: {fileID: 0}
+--- !u!114 &1702108732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1702108705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4dadd7b7ef31324e94da07737be2aa0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TheDeleteWireButton15: {fileID: 0}
+  Wire15: {fileID: 0}
+--- !u!114 &1702108733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1702108705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e45359e27c82b94e8b26e995362372e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TheDeleteWireButton14: {fileID: 0}
+  Wire14: {fileID: 0}
+--- !u!114 &1702108734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1702108705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01c2b88f9b6550549938584fd3c84c76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TheDeleteWireButton13: {fileID: 0}
+  Wire13: {fileID: 0}
+--- !u!114 &1702108735
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1702108705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f854d400e229efa4aa634d95974e6a24, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TheDeleteWireButton12: {fileID: 0}
+  Wire12: {fileID: 0}
+--- !u!114 &1702108736
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1702108705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bfe34f40b233e749b69d6d251fce164, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TheDeleteWireButton11: {fileID: 0}
+  Wire11: {fileID: 0}
+--- !u!114 &1702108737
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1702108705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c39166774d7e1c34c97dcc6ccad17060, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TheDeleteWireButton10: {fileID: 0}
+  Wire10: {fileID: 0}
+--- !u!114 &1702108738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1702108705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 871932a9304bdea4c8f8eff89c60e273, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TheDeleteWireButton9: {fileID: 0}
+  Wire9: {fileID: 0}
+--- !u!114 &1702108739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1702108705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8cd851c8567fe94fbdba9633711c831, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TheDeleteWireButton8: {fileID: 0}
+  Wire8: {fileID: 0}
+--- !u!114 &1702108740
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1702108705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81044c67770a75242972c8b8fb9d2a63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TheDeleteWireButton7: {fileID: 0}
+  Wire7: {fileID: 0}
+--- !u!114 &1702108741
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1702108705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42d62ee7f654bf24ebd0c6a3ae0342e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TheDeleteWireButton6: {fileID: 0}
+  Wire6: {fileID: 0}
+--- !u!114 &1702108742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1702108705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 679a26aaaf2f2fe4baff32ab37ae22ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TheDeleteWireButton5: {fileID: 0}
+  Wire5: {fileID: 0}
+--- !u!114 &1702108743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1702108705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a28a8a66094517b4cac4b96de4eaefbe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TheDeleteWireButton4: {fileID: 0}
+  Wire4: {fileID: 0}
+--- !u!114 &1702108744
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1702108705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7138d08ab501cc54a84fa25c62c965b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TheDeleteWireButton3: {fileID: 0}
+  Wire3: {fileID: 0}
+--- !u!114 &1702108745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1702108705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 828f3fcfa8354124289c5eba45837660, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TheDeleteWireButton2: {fileID: 0}
+  Wire2: {fileID: 0}
+--- !u!114 &1702108746
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1702108705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74942b7756324724ebb05209dcce5515, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TheDeleteWireButton1: {fileID: 0}
+  Wire1: {fileID: 0}
 --- !u!1 &1727081856 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4296418687008448887, guid: 980ebf904e5ad00439ca860f6251f590, type: 3}
   m_PrefabInstance: {fileID: 337956512}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1727081860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1727081856}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81ce1d2965a96314f9fb6eca1b867cd0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TheWireType: 0
 --- !u!1 &1736757896
 GameObject:
   m_ObjectHideFlags: 0
@@ -10053,7 +10524,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1869451580
 RectTransform:
   m_ObjectHideFlags: 0
@@ -10127,7 +10598,7 @@ GameObject:
   - component: {fileID: 1903180029}
   - component: {fileID: 1903180032}
   - component: {fileID: 1903180031}
-  - component: {fileID: 1903180030}
+  - component: {fileID: 1903180033}
   m_Layer: 0
   m_Name: RemoveWireButton1 (7)
   m_TagString: Untagged
@@ -10143,27 +10614,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1903180028}
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -13.3, y: 7.6723504, z: 13.270841}
+  m_LocalPosition: {x: -13.299999, y: 7.67235, z: 13.27084}
   m_LocalScale: {x: -0.34874317, y: -0.3487432, z: -0.3487432}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 7967522}
   m_RootOrder: 34
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &1903180030
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1903180028}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 74942b7756324724ebb05209dcce5515, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  TheDeleteWireButton1: {fileID: 1903180028}
-  Wire1: {fileID: 1727081856}
 --- !u!65 &1903180031
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10229,6 +10686,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1903180033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1903180028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8cd851c8567fe94fbdba9633711c831, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TheDeleteWireButton8: {fileID: 1903180028}
+  Wire8: {fileID: 316504500}
 --- !u!1 &1904166338
 GameObject:
   m_ObjectHideFlags: 0
@@ -10381,7 +10852,7 @@ GameObject:
   - component: {fileID: 1962335835}
   - component: {fileID: 1962335838}
   - component: {fileID: 1962335837}
-  - component: {fileID: 1962335836}
+  - component: {fileID: 1962335839}
   m_Layer: 0
   m_Name: RemoveWireButton1 (11)
   m_TagString: Untagged
@@ -10397,27 +10868,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1962335834}
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -2, y: 10.2, z: -14.2}
+  m_LocalPosition: {x: -1.9999999, y: 10.2, z: -14.199999}
   m_LocalScale: {x: -0.34874317, y: -0.3487432, z: -0.3487432}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 7967522}
   m_RootOrder: 42
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &1962335836
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1962335834}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 74942b7756324724ebb05209dcce5515, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  TheDeleteWireButton1: {fileID: 1962335834}
-  Wire1: {fileID: 1727081856}
 --- !u!65 &1962335837
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10483,6 +10940,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1962335839
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1962335834}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f854d400e229efa4aa634d95974e6a24, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TheDeleteWireButton12: {fileID: 1962335834}
+  Wire12: {fileID: 364213754}
 --- !u!1 &2012521798
 GameObject:
   m_ObjectHideFlags: 0
@@ -10568,6 +11039,19 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 5587080894842602185, guid: 980ebf904e5ad00439ca860f6251f590, type: 3}
   m_PrefabInstance: {fileID: 337956512}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2016837875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2016837871}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81ce1d2965a96314f9fb6eca1b867cd0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TheWireType: 0
 --- !u!1 &2035616215
 GameObject:
   m_ObjectHideFlags: 0
@@ -10661,6 +11145,7 @@ MonoBehaviour:
   Bundle2B: {fileID: 1304077488}
   Bundle3B: {fileID: 305277817}
   Bundle4B: {fileID: 48322518}
+  AllWiresInvisableToStartScript: {fileID: 1702108711}
 --- !u!65 &2035616220
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10767,6 +11252,7 @@ MonoBehaviour:
   Bundle2B: {fileID: 1304077488}
   Bundle3B: {fileID: 305277817}
   Bundle4B: {fileID: 48322518}
+  AllWiresInvisableToStartScript: {fileID: 1702108711}
 --- !u!65 &2050985068
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10811,7 +11297,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1674036242}
-  m_RootOrder: 11
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
@@ -10869,6 +11355,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2060462325}
+  - component: {fileID: 2060462326}
+  - component: {fileID: 2060462328}
+  - component: {fileID: 2060462327}
   m_Layer: 0
   m_Name: CheckButtonScript NEEDED
   m_TagString: Untagged
@@ -10891,6 +11380,130 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2060462326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2060462323}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6deb5f3e64a4e34e94d8195f6cdbf79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CheckButtonPannel: {fileID: 254644602}
+  IncorrectEndElectricalGameScript: {fileID: 2060462328}
+  CorrectElectricalGameScript: {fileID: 2060462327}
+  wire1: {fileID: 1727081856}
+  wire2: {fileID: 1454696708}
+  wire3: {fileID: 1459514542}
+  wire4: {fileID: 436446969}
+  wire5: {fileID: 1667916793}
+  wire6: {fileID: 1055380896}
+  wire7: {fileID: 2016837871}
+  wire8: {fileID: 316504500}
+  wire9: {fileID: 668942820}
+  wire10: {fileID: 1402122019}
+  wire11: {fileID: 1607908074}
+  wire12: {fileID: 364213754}
+  wire13: {fileID: 2105044808}
+  wire14: {fileID: 435940740}
+  wire15: {fileID: 1154879403}
+  wire16: {fileID: 1642765232}
+  connector1: {fileID: 919266218}
+  connector2: {fileID: 901826249}
+  connector3: {fileID: 967047732}
+  connector4: {fileID: 1698489392}
+  connector5: {fileID: 412596805}
+  connector6: {fileID: 710445401}
+  connector7: {fileID: 844972723}
+  connector8: {fileID: 690495574}
+  connector9: {fileID: 1112270445}
+  connector10: {fileID: 2083817106}
+  connector11: {fileID: 372962821}
+  connector12: {fileID: 707811865}
+  connector13: {fileID: 887178739}
+  connector14: {fileID: 231373407}
+  connector15: {fileID: 1064316364}
+  connector16: {fileID: 2119615114}
+--- !u!114 &2060462327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2060462323}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed6549b89aa4db54f9bed1c9ca262ba1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  allWires:
+  - {fileID: 1727081856}
+  - {fileID: 1454696708}
+  - {fileID: 1459514542}
+  - {fileID: 436446969}
+  - {fileID: 1667916793}
+  - {fileID: 1055380896}
+  - {fileID: 2016837871}
+  - {fileID: 316504500}
+  - {fileID: 668942820}
+  - {fileID: 1402122019}
+  - {fileID: 1607908074}
+  - {fileID: 364213754}
+  - {fileID: 2105044808}
+  - {fileID: 435940740}
+  - {fileID: 1154879403}
+  - {fileID: 1642765232}
+  allConnectors:
+  - {fileID: 919266218}
+  - {fileID: 901826249}
+  - {fileID: 967047732}
+  - {fileID: 1698489392}
+  - {fileID: 412596805}
+  - {fileID: 710445401}
+  - {fileID: 844972723}
+  - {fileID: 690495574}
+  - {fileID: 1112270445}
+  - {fileID: 2083817106}
+  - {fileID: 372962821}
+  - {fileID: 707811865}
+  - {fileID: 887178739}
+  - {fileID: 231373407}
+  - {fileID: 1064316364}
+  - {fileID: 2119615114}
+  allDeleteButtons:
+  - {fileID: 888999146}
+  - {fileID: 937408870}
+  - {fileID: 482553467}
+  - {fileID: 197178960}
+  - {fileID: 1082601532}
+  - {fileID: 1109015516}
+  - {fileID: 800633255}
+  - {fileID: 1903180028}
+  - {fileID: 50377430}
+  - {fileID: 1417477782}
+  - {fileID: 675999778}
+  - {fileID: 1962335834}
+  - {fileID: 180422442}
+  - {fileID: 1161863919}
+  - {fileID: 1325990060}
+  - {fileID: 262056607}
+  NextScenarioElectricalScript: {fileID: 637887948}
+  NextButtonPanel: {fileID: 2128916533}
+--- !u!114 &2060462328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2060462323}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 718ce594952af614485fb4cf8ac9414e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2076223307
 GameObject:
   m_ObjectHideFlags: 0
@@ -10923,7 +11536,7 @@ RectTransform:
   m_Children:
   - {fileID: 1485777715}
   m_Father: {fileID: 308088935}
-  m_RootOrder: 3
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
@@ -11015,7 +11628,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 53141728b12f4d240be71e5b441a6009, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wire10: {fileID: 435940740}
+  wire10: {fileID: 1402122019}
   RemoveWireButton10: {fileID: 1417477782}
 --- !u!65 &2083817109
 BoxCollider:
@@ -11085,6 +11698,19 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: -2272913289552702513, guid: 980ebf904e5ad00439ca860f6251f590, type: 3}
   m_PrefabInstance: {fileID: 337956512}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2105044812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2105044808}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81ce1d2965a96314f9fb6eca1b867cd0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TheWireType: 0
 --- !u!1 &2119615114
 GameObject:
   m_ObjectHideFlags: 0
@@ -11132,7 +11758,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7fa07f98138762479acdf3273210535, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wire16: {fileID: 1154879403}
+  wire16: {fileID: 1642765232}
   RemoveWireButton16: {fileID: 262056607}
 --- !u!65 &2119615117
 BoxCollider:
@@ -11229,7 +11855,7 @@ RectTransform:
   m_Children:
   - {fileID: 1736757897}
   m_Father: {fileID: 1674036242}
-  m_RootOrder: 10
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -11421,7 +12047,7 @@ RectTransform:
   m_Children:
   - {fileID: 1214311652}
   m_Father: {fileID: 308088935}
-  m_RootOrder: 0
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}

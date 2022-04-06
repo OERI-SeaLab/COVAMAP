@@ -29,5 +29,13 @@ public class MakeWireShowUp8 : MonoBehaviour
         {
             wire8.GetComponent<MeshRenderer>().material.color = Color.black;
         }
+        if (DontDestroy.CableType == "F4")
+        {
+            wire8.GetComponent<WireType>().TheWireType = 4;
+        }
+        if (DontDestroy.CableType == "F2")
+        {
+            wire8.GetComponent<WireType>().TheWireType = 2;
+        }
     }
 }

@@ -35,6 +35,21 @@ public class Scoreboard : MonoBehaviour
         TimeBonusGameObject.gameObject.SetActive(false);
         CongratsText.gameObject.SetActive(false);
 
+        if ((DontDestroy.GameChoice == "Electrical") && (DontDestroy.ElectricalWon == false))
+        {
+            print("fail");
+            CongratsText.gameObject.SetActive(false);
+            FailText.gameObject.SetActive(true);
+        }
+
+        if ((DontDestroy.GameChoice == "Electrical") && (DontDestroy.ElectricalWon == true))
+        {
+
+            print("correct!");
+            CongratsText.gameObject.SetActive(true);
+            FailText.gameObject.SetActive(false);
+        }
+
         if (DontDestroy.GameChoice=="PPE" || DontDestroy.GameChoice == "Hazards")
         {
             FailText.gameObject.SetActive(false);
@@ -46,10 +61,12 @@ public class Scoreboard : MonoBehaviour
             FailDirectionsText.gameObject.SetActive(false);
             FailTooManyTriesText.gameObject.SetActive(false);
         }
-            
-        
-        
-        
+
+
+
+
+
+
 
         Time.timeScale = 1;
 

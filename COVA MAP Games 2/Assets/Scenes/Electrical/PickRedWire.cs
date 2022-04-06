@@ -7,6 +7,7 @@ public class PickRedWire : MonoBehaviour
     public GameObject Bundle2B;
     public GameObject Bundle3B;
     public GameObject Bundle4B;
+    public AllWiresInvisableToStart AllWiresInvisableToStartScript;
 
 
     // Update is called once per frame
@@ -19,6 +20,8 @@ public class PickRedWire : MonoBehaviour
         Bundle3B.SetActive(false);
         Bundle4B.SetActive(false);
         print(DontDestroy.WireColor);
+        AllWiresInvisableToStartScript.EnableConnectors();
+
     }
 
 }

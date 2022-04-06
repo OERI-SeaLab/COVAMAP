@@ -62,4 +62,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Electrical/Electrical.unity
     guid: 790540e9ec6a8f34f89395d2e8ea71cd
+  - enabled: 1
+    path: Assets/Scenes/Electrical/ScoreboardElectrical.unity
+    guid: c0849655528ccdc498d20410036b155c
   m_configObjects: {}

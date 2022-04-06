@@ -15,6 +15,7 @@ public class Timer : MonoBehaviour
     //Referencing other scripts.
     public CheckAnswersPPE CheckAnswersPPEScript;  
     public ScoringPPE ScoringPPEScript;
+    public CheckAnswers CheckAnswersElectricalScript;
 
     public GameObject NextButtonPanel; 
     public GameObject CheckButtonPanel;
@@ -311,9 +312,9 @@ public class Timer : MonoBehaviour
             }
             if (DontDestroy.GameChoice == "Electrical")
             {
-                //CheckAnswersPPEScript.CheckingAnswers();          NEEDS to BE ON WHEN CHECKING AGAIN!!!!!!!!!!!!!!!!!!!!!!!!!
-                Checked = true;  //So that the if condition is not met again.
-                CheckButtonPanel.SetActive(false);  //Hide check button.
+                CheckAnswersElectricalScript.CheckAnswerElectrical();          
+                //Checked = true;  //So that the if condition is not met again.
+                //CheckButtonPanel.SetActive(false);  //Hide check button.
                 NextButtonPanel.SetActive(true);   //Show Next button.
             }
         }

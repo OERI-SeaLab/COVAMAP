@@ -33,6 +33,9 @@ public class DontDestroy : MonoBehaviour
     public static int NumberTimesCheckedPerValve=0;
     public static bool CaughtGuessing = false;
 
+    public static bool ElectricalWon = false;
+
+
     public static bool BeenThroughFirstValveScenario;
 
     public static int ScenarioCounter = 0;
