@@ -7,7 +7,10 @@ public class ScoreElectrical : MonoBehaviour
 {
     public Text text;
 
-
+    public void Start()
+    {
+        DontDestroy.ScenarioCounter = 0;
+    }
     // Update is called once per frame
     void Update()
     {

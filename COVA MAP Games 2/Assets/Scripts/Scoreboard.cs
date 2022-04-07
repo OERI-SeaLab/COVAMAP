@@ -40,6 +40,7 @@ public class Scoreboard : MonoBehaviour
             print("fail");
             CongratsText.gameObject.SetActive(false);
             FailText.gameObject.SetActive(true);
+            FailAudio.Play();
         }
 
         if ((DontDestroy.GameChoice == "Electrical") && (DontDestroy.ElectricalWon == true))
@@ -48,6 +49,7 @@ public class Scoreboard : MonoBehaviour
             print("correct!");
             CongratsText.gameObject.SetActive(true);
             FailText.gameObject.SetActive(false);
+            CongratsAudio.Play();
         }
 
         if (DontDestroy.GameChoice=="PPE" || DontDestroy.GameChoice == "Hazards")

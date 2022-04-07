@@ -3690,7 +3690,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: New Text
+  m_Text: You will connect 8 circuits, one at a time. If you make an error, you'll
+    be asked to start over so pay close attention to the cable type and wire color!
+    The current circuit instructions will always be in the table at the bottom of
+    the screen.
 --- !u!222 &748225606
 CanvasRenderer:
   m_ObjectHideFlags: 0

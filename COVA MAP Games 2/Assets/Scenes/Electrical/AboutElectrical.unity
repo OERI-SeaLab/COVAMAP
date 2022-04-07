@@ -597,7 +597,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: The game instructions go here
+  m_Text: Put your skills to the test by accurately wiring a circuit box.
 --- !u!222 &1049701696
 CanvasRenderer:
   m_ObjectHideFlags: 0

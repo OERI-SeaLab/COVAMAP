@@ -22,15 +22,20 @@ public class GameScenarioInfoPanels : MonoBehaviour
     }
     void Start()
     {
-        if (DontDestroy.GameChoice == "PPE" || DontDestroy.GameChoice == "Valves" || DontDestroy.GameChoice == "Electrical")
+        if (DontDestroy.GameChoice == "PPE" || DontDestroy.GameChoice == "Valves")
         {
             AboutText.GetComponent<Text>().text = DontDestroy.InstructionsText;  //Pull scenario instructions text that was saved to the DoNotDestroy script.
         
             DontDestroy.ScenarioCounter = DontDestroy.ScenarioCounter + 1;
         }
 
-        
-        
+        if (DontDestroy.GameChoice == "Electrical")
+        {
+            DontDestroy.ScenarioCounter = DontDestroy.ScenarioCounter + 1;
+        }
+
+
+
 
         if (DontDestroy.GameChoice == "PPE")
         {
