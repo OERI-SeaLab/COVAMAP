@@ -82,6 +82,9 @@ public class NextScenarioElectrical : MonoBehaviour
         if (DontDestroy.LevelChoice == "Easy")
         {
             DontDestroy.timeLeft = 30.0f;
+            easy.fillAmount = 1.0f;
+            medium.fillAmount = 1.0f;
+            hard.fillAmount = 1.0f;
             easy.enabled = true;
             medium.enabled = true;
             hard.enabled = true;
@@ -90,6 +93,10 @@ public class NextScenarioElectrical : MonoBehaviour
         if (DontDestroy.LevelChoice == "Medium")
         {
             DontDestroy.timeLeft = 20.0f;
+         
+            medium.fillAmount = 1.0f;
+            hard.fillAmount = 1.0f;
+            hard.fillAmount = 1.0f;
             easy.enabled = false;
             medium.enabled = true;
             hard.enabled = true;
@@ -98,6 +105,8 @@ public class NextScenarioElectrical : MonoBehaviour
         if (DontDestroy.LevelChoice == "Hard")
         {
             DontDestroy.timeLeft = 10.0f;
+
+            hard.fillAmount = 1.0f;
             easy.enabled = false;
             medium.enabled = false;
             hard.enabled = true;

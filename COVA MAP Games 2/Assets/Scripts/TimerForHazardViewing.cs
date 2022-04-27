@@ -6,12 +6,9 @@ using UnityEngine.SceneManagement;
 using UnityEngine.EventSystems;
 
 public class TimerForHazardViewing : MonoBehaviour
-
 {
     public float timeStart = 3.0f;
     public float timeLeftToView = 0.0f;
-
-    //Referencing other scripts.
 
     public void Start()
     {
@@ -27,7 +24,7 @@ public class TimerForHazardViewing : MonoBehaviour
 
         else if (DontDestroy.LevelChoice == "Hard")
         {
-            DontDestroy.timeLeft = 5.0f;  //To be changed back to 20.0
+            DontDestroy.timeLeft = 5.0f;
         }
 
         Time.timeScale = 1;
@@ -43,9 +40,5 @@ public class TimerForHazardViewing : MonoBehaviour
             print("time is up!!!!!");
             SceneManager.LoadScene("HazardsChecklist");
         }
-        
     }
-
-   
 }
-

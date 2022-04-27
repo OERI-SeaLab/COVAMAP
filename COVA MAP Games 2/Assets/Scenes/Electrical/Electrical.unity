@@ -1179,7 +1179,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -225.00049, y: -26.999725}
+  m_AnchoredPosition: {x: -225.00049, y: -26.999695}
   m_SizeDelta: {x: -638.891, y: -371.43}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &254644604
@@ -6519,6 +6519,7 @@ MonoBehaviour:
   ReadyToPlayAudioScript: {fileID: 1274574144}
   ScenarioText: {fileID: 2060012492}
   ScenarioReminderText: {fileID: 0}
+  CheckButtonPanel: {fileID: 1325140671}
 --- !u!4 &1202645914
 Transform:
   m_ObjectHideFlags: 0

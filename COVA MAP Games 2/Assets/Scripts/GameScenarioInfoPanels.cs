@@ -12,6 +12,7 @@ public class GameScenarioInfoPanels : MonoBehaviour
     public ReadyToPlayAudio ReadyToPlayAudioScript;
     public GameObject ScenarioText;
     public GameObject ScenarioReminderText;
+    public GameObject CheckButtonPanel;
 
     private void Awake()
     {
@@ -32,6 +33,7 @@ public class GameScenarioInfoPanels : MonoBehaviour
         if (DontDestroy.GameChoice == "Electrical")
         {
             DontDestroy.ScenarioCounter = DontDestroy.ScenarioCounter + 1;
+            CheckButtonPanel.SetActive(false);
         }
 
 
@@ -65,6 +67,8 @@ public class GameScenarioInfoPanels : MonoBehaviour
             {
                 AboutTextPanel.SetActive(false);  //Set the panel with the scenario text inactive.
 
+                
+
                 if (DontDestroy.GameChoice == "PPE" || DontDestroy.GameChoice == "Valves" || DontDestroy.GameChoice == "Electrical")
                 {
                     ReadyToPlayAudioScript.ReadyToPlay();
@@ -73,6 +77,7 @@ public class GameScenarioInfoPanels : MonoBehaviour
                 if (DontDestroy.GameChoice == "Electrical")
                 {
                     ScenarioText.GetComponent<Text>().text = "Scenario: " + DontDestroy.ScenarioCounter + "/8";
+                    CheckButtonPanel.SetActive(true);
                 }
 
             }

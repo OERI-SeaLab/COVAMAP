@@ -229,6 +229,9 @@ public class Timer : MonoBehaviour
 
         if (Time.timeSinceLevelLoad > 0.1f && DontDestroy.GameChoice == "Electrical")
         {
+            print("Time Since Level Load: " + Time.timeSinceLevelLoad);
+            print("Time Left: " + DontDestroy.timeLeft);
+            
             DontDestroy.timeLeft -= Time.deltaTime;
             if (DontDestroy.timeLeft <= 10.0f)
             {
@@ -237,6 +240,7 @@ public class Timer : MonoBehaviour
 
             if (DontDestroy.timeLeft <= 20.0f)
             {
+                print("Medium fillllllllllllllll");
                 medium.fillAmount -= 1.0f / time * Time.deltaTime;
             }
 
