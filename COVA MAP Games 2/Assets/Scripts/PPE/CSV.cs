@@ -5,7 +5,9 @@ using UnityEngine.UI;
 
 public class CSV : MonoBehaviour
 {
-    public TextAsset csv;
+   // Load csv.
+	
+	public TextAsset csv;
 
 	private int index;
 

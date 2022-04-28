@@ -7,6 +7,7 @@ public class ReadyToPlayAudio : MonoBehaviour
 
     public AudioSource ReadyToStartGame;
     public AudioSource GoSound;
+    
     //public AudioSource GoAudio;
     public AudioSource InGameMusic;
 
@@ -20,6 +21,7 @@ public class ReadyToPlayAudio : MonoBehaviour
 
     private void Start()
     {
+        //Countdown 3, 2, 1, Go! set inactive
         if (DontDestroy.GameChoice == "PPE" || DontDestroy.GameChoice == "Valves" || DontDestroy.GameChoice == "Electrical")
         {
             CountdownPanel.SetActive(false);
@@ -28,7 +30,9 @@ public class ReadyToPlayAudio : MonoBehaviour
             CountdownNumber3.SetActive(false);
             CountdownNumberGo.SetActive(false);
         }
-        if (DontDestroy.GameChoice == "Hazards")
+
+        //Hazards game doesn't have the countdown... goes right into the in game music
+        if (DontDestroy.GameChoice == "Hazards") 
         {
             StopBackGroundMusic();
             InGameMusic.Play();
@@ -40,9 +44,8 @@ public class ReadyToPlayAudio : MonoBehaviour
 
         if (DontDestroy.GameChoice == "PPE" || DontDestroy.GameChoice == "Valves" || DontDestroy.GameChoice == "Electrical")
         {
-            StartCoroutine(CountDownDelay());
+            StartCoroutine(CountDownDelay());  //Calls function to start Countdown 3, 2, 1, Go! at start of game
         }
-        
     }
 
     public void StopBackGroundMusic()
@@ -50,6 +53,8 @@ public class ReadyToPlayAudio : MonoBehaviour
         GameObject.FindGameObjectWithTag("Music").GetComponent<PlayAudio>().StopMusic();
     }
 
+
+    //Countdown 3, 2, 1, Go! at start of game
     public IEnumerator CountDownDelay()
     {
         print("start delay countdown");

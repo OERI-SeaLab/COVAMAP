@@ -7,6 +7,8 @@ using UnityEngine.EventSystems;
 
 public class TimerForHazardViewing : MonoBehaviour
 {
+    //After viewing the scene with hazards, the checklist scene is loaded automatically after designated time.
+
     public float timeStart = 3.0f;
     public float timeLeftToView = 0.0f;
 

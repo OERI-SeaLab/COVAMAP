@@ -11,7 +11,8 @@ public class PickScenarioValves : MonoBehaviour
 
 	public GameObject AboutText;
 
-	//Read in the csv.
+	// Read in the csv and assign a new scenario number
+
 	void Start()
 	{
 		DontDestroy.ScenarioList.Clear();

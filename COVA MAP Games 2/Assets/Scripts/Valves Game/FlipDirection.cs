@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+//Flip the valves when a directional flip btton is pushed
 public enum FlipState
 {
-    HighToLow,
-    LowToHigh
+    HighToLow,  //high pressure to low pressure
+    LowToHigh  //low pressure to high pressure
 }
 
 public class FlipDirection : MonoBehaviour
@@ -20,7 +21,7 @@ public class FlipDirection : MonoBehaviour
     public Sprite highToLowSprite;
     public Sprite lowToHighSprite;
 
-    // Start is called before the first frame update
+    // flip the direction
     public void FlipDirectionButton()
     {
 
@@ -34,6 +35,7 @@ public class FlipDirection : MonoBehaviour
         }
     }
 
+    //show correct positioning of the valve depending on selected flipstate
     private void Update()
     {
         if (flipindex == FlipState.HighToLow)

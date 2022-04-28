@@ -10,15 +10,14 @@ public class HelpPanelButton : MonoBehaviour
 
     public void HelpButton()
     {
-        HelpPanel.SetActive(true);  
+        HelpPanel.SetActive(true);  //Open help menu.
     }
 
     public void Update()
     {
         if (Input.GetMouseButtonDown(0))
         {
-            HelpPanel.SetActive(false);
+            HelpPanel.SetActive(false);  //Close help menu.
         }
     }
-
 }

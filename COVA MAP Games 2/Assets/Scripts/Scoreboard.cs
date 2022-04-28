@@ -31,6 +31,7 @@ public class Scoreboard : MonoBehaviour
 
     public void Start()
     {
+        //------------Electrical Game Scoring-----------//
 
         TimeBonusGameObject.gameObject.SetActive(false);
         CongratsText.gameObject.SetActive(false);
@@ -52,6 +53,8 @@ public class Scoreboard : MonoBehaviour
             CongratsAudio.Play();
         }
 
+        // PPE, Values, and Hazards Hide text
+
         if (DontDestroy.GameChoice=="PPE" || DontDestroy.GameChoice == "Hazards")
         {
             FailText.gameObject.SetActive(false);
@@ -68,7 +71,7 @@ public class Scoreboard : MonoBehaviour
 
 
 
-
+        //------------PPE Game Scoring BONUS POINTS-----------//
 
         Time.timeScale = 1;
 
@@ -136,6 +139,8 @@ public class Scoreboard : MonoBehaviour
             }
         }
 
+        //------------Hazards Game Scoring-----------//
+
         if (DontDestroy.GameChoice == "Hazards")
         {
             print(DontDestroy.timeLeft);
@@ -202,6 +207,7 @@ public class Scoreboard : MonoBehaviour
 
 
 
+        //------------Values Game Scoring-----------//
 
         if (DontDestroy.GameChoice == "Valves")
         {
@@ -281,6 +287,7 @@ public class Scoreboard : MonoBehaviour
         }
     }
 
+    //Wait and show bonus score after delay
     public IEnumerator GetScoreWithBonus()
     {
         print("start delay");

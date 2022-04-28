@@ -5,13 +5,13 @@ using UnityEngine.SceneManagement;
 
 public class CheckButton : MonoBehaviour
 {
+    //Check button for the VALVES game
     public GameObject NextButtonPanel;
-
 
     // Start is called before the first frame update
     public void CheckDirections()
     {
-        //SceneManager.LoadScene("ScoreboardValves");
+        
         if (CheckFlipDirections())
         {
             print("You are the winner");

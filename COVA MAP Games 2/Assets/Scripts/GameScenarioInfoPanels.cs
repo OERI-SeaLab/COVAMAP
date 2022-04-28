@@ -32,29 +32,25 @@ public class GameScenarioInfoPanels : MonoBehaviour
 
         if (DontDestroy.GameChoice == "Electrical")
         {
-            DontDestroy.ScenarioCounter = DontDestroy.ScenarioCounter + 1;
+            DontDestroy.ScenarioCounter = DontDestroy.ScenarioCounter + 1;  
             CheckButtonPanel.SetActive(false);
         }
 
-
-
-
         if (DontDestroy.GameChoice == "PPE")
         {
-            ScenarioText.GetComponent<Text>().text = "Scenario: " + DontDestroy.ScenarioCounter + "/5";
+            ScenarioText.GetComponent<Text>().text = "Scenario: " + DontDestroy.ScenarioCounter + "/5";  //Display current scenario number
             ScenarioReminderText.GetComponent<Text>().text = "Dressing for " + DontDestroy.ScenarioReminderText + ".";
         }
 
         if (DontDestroy.GameChoice == "Valves")
         {
-            ScenarioText.GetComponent<Text>().text = "Scenario: " + DontDestroy.ScenarioCounter + "/4";
+            ScenarioText.GetComponent<Text>().text = "Scenario: " + DontDestroy.ScenarioCounter + "/4";  //Display current scenario number
         }
 
         if (DontDestroy.GameChoice == "Hazards")
         {
-            ScenarioText.GetComponent<Text>().text = "Scenario: " + DontDestroy.ScenarioCounter + "/11";
+            ScenarioText.GetComponent<Text>().text = "Scenario: " + DontDestroy.ScenarioCounter + "/11";  //Display current scenario number
         }
-
     }
 
     public void Update()
@@ -71,12 +67,12 @@ public class GameScenarioInfoPanels : MonoBehaviour
 
                 if (DontDestroy.GameChoice == "PPE" || DontDestroy.GameChoice == "Valves" || DontDestroy.GameChoice == "Electrical")
                 {
-                    ReadyToPlayAudioScript.ReadyToPlay();
+                    ReadyToPlayAudioScript.ReadyToPlay();  //play music
                 }
 
                 if (DontDestroy.GameChoice == "Electrical")
                 {
-                    ScenarioText.GetComponent<Text>().text = "Scenario: " + DontDestroy.ScenarioCounter + "/8";
+                    ScenarioText.GetComponent<Text>().text = "Scenario: " + DontDestroy.ScenarioCounter + "/8";  //Display current scenario number
                     CheckButtonPanel.SetActive(true);
                 }
 

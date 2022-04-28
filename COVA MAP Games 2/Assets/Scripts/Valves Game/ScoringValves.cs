@@ -14,6 +14,8 @@ public class ScoringValves : MonoBehaviour
     public GameObject NextButtonPanel;
     public GameObject AboutValvePanel;
 
+    // only showing the next button if time runs out
+
     public void Update()
     {
         if (DontDestroy.timeLeft <= 0.0)
@@ -23,9 +25,10 @@ public class ScoringValves : MonoBehaviour
         }
     }
 
+    // get the scorebased on the level chosen
+
     public void GetScore() 
     {
-        print("GETTING HERE!!!!!!!!!");
         if (DontDestroy.LevelChoice == "Easy")
         {
             DontDestroy.Score = DontDestroy.NumberCorrect * 45/(System.Convert.ToInt32(DontDestroy.NumberOfValves)) + (DontDestroy.NumberTimesChecked) * (-6);

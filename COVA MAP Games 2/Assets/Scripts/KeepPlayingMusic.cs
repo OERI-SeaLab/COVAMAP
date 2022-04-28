@@ -7,7 +7,7 @@ public class KeepPlayingMusic : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        GameObject.FindGameObjectWithTag("Music").GetComponent<PlayAudio>().PlayMusic();
+        GameObject.FindGameObjectWithTag("Music").GetComponent<PlayAudio>().PlayMusic(); //Continue playing acive game music 
     }
 
 }

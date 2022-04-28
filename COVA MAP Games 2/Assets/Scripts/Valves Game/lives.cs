@@ -5,6 +5,8 @@ using UnityEngine.UI;
 
 public class lives : MonoBehaviour
 {
+    // Lives system for valves game
+
     public Timer TimerScript;
 
     public GameObject NextButtonPanel;
@@ -29,14 +31,14 @@ public class lives : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        DontDestroy.NumberTimesChecked = 0;
-        Life1.SetActive(true);
+        DontDestroy.NumberTimesChecked = 0;  //start with 0 times checked 
+        Life1.SetActive(true);   //All lives avaible to start 
         Life2.SetActive(true);
         Life3.SetActive(true);
         print("Number of times checked: " + DontDestroy.NumberTimesChecked);
 
 
-        if (DontDestroy.ScenarioChoice == "1")
+        if (DontDestroy.ScenarioChoice == "1")  
         {
             ValveGuessingAnswers = ValveGuessingAnswers1;
         }
@@ -67,7 +69,7 @@ public class lives : MonoBehaviour
         }
     }
 
-    // Update is called once per frame
+    // Remove lives as number of times checked increases
     void Update()
     {
         if (DontDestroy.NumberTimesChecked == 1)
@@ -78,7 +80,7 @@ public class lives : MonoBehaviour
         {
             Life2.SetActive(false);
         }
-        if (DontDestroy.NumberTimesChecked == 3)
+        if (DontDestroy.NumberTimesChecked == 3)  //if checked three times, call Guessing
         {
             Life1.SetActive(false);
             if (DontDestroy.CaughtGuessing == false)
@@ -90,18 +92,18 @@ public class lives : MonoBehaviour
     }
 
 
-    public void Guessing()
+    public void Guessing()  
     {
-        TimerScript.PauseGame();
+        TimerScript.PauseGame();   // pause the timer
 
-        NextButtonPanel.SetActive(true);
+        NextButtonPanel.SetActive(true);  
 
-        foreach (GameObject x in DisappearAtEnd)
+        foreach (GameObject x in DisappearAtEnd)  
         {
             x.SetActive(false);
         }
 
-        foreach (int x in DontDestroy.NumberTimesCheckedPerValveArray)
+        foreach (int x in DontDestroy.NumberTimesCheckedPerValveArray) 
         {
             print("THE LIST: " + x);
             if (x >= 2)

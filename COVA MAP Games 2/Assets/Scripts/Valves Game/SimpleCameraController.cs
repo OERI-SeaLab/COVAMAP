@@ -2,6 +2,8 @@
 
 namespace UnityTemplateProjects
 {
+
+    //Caleb wrote this script
     public class SimpleCameraController : MonoBehaviour
     {
         class CameraState

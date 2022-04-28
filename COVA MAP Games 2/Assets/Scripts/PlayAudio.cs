@@ -4,12 +4,14 @@ using System.Collections;
  
  public class PlayAudio : MonoBehaviour
 {
+    //Music system
+    
     public AudioSource _audioSource;
     private GameObject[] other;
     private bool NotFirst = false;
     private void Awake()
     {
-        other = GameObject.FindGameObjectsWithTag("Music");
+        other = GameObject.FindGameObjectsWithTag("Music");  //Caleb obviously did this
 
         foreach (GameObject oneOther in other)
         {

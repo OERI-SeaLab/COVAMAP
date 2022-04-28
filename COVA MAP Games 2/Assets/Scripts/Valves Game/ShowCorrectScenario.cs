@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ShowCorrectScenario : MonoBehaviour
 {
-    // Start is called before the first frame update
+    // Show correct instructions based on the current scenario
 
     public GameObject Scenario1Panel;
     public GameObject Scenario2Panel;
@@ -47,9 +47,4 @@ public class ShowCorrectScenario : MonoBehaviour
         }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

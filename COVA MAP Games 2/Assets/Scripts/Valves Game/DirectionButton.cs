@@ -2,8 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+// Activate/Deactivate the direction buttons to flip the valves
 public class DirectionButton : MonoBehaviour
 {
+    //All inactive to start
     void Start()
     {
         for (int i = 0; i < DirectionButtons.Count; i++)
@@ -14,7 +16,7 @@ public class DirectionButton : MonoBehaviour
     public List<GameObject> Valves;
     public List<GameObject> DirectionButtons;
 
-    // Update is called once per frame
+    // Directional buttons only show up when valves has been dropped into place
     void Update()
     {
         for (int i = 0; i < Valves.Count; i++)

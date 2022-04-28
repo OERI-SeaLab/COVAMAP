@@ -2,6 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//Caleb's script
+
+
 public class ValveSpot : MonoBehaviour
 {
     [System.Serializable]
@@ -26,19 +29,6 @@ public class ValveSpot : MonoBehaviour
         return false;
     }
 
-    //public List<GameObject> correctValves;
-
     public List<CorrectValveStruct> correctValveObjects;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

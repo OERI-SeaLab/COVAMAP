@@ -466,11 +466,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 50377430}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 871932a9304bdea4c8f8eff89c60e273, type: 3}
+  m_Script: {fileID: 11500000, guid: 828f3fcfa8354124289c5eba45837660, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TheDeleteWireButton9: {fileID: 50377430}
-  Wire9: {fileID: 668942820}
+  Wire: {fileID: 668942820}
 --- !u!1 &53444606
 GameObject:
   m_ObjectHideFlags: 0
@@ -745,11 +744,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 180422442}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 01c2b88f9b6550549938584fd3c84c76, type: 3}
+  m_Script: {fileID: 11500000, guid: 828f3fcfa8354124289c5eba45837660, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TheDeleteWireButton13: {fileID: 180422442}
-  Wire13: {fileID: 2105044808}
+  Wire: {fileID: 2105044808}
 --- !u!1 &197178960
 GameObject:
   m_ObjectHideFlags: 0
@@ -858,11 +856,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 197178960}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a28a8a66094517b4cac4b96de4eaefbe, type: 3}
+  m_Script: {fileID: 11500000, guid: 828f3fcfa8354124289c5eba45837660, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TheDeleteWireButton4: {fileID: 197178960}
-  Wire4: {fileID: 436446969}
+  Wire: {fileID: 436446969}
 --- !u!1 &216986031
 GameObject:
   m_ObjectHideFlags: 0
@@ -959,7 +956,7 @@ GameObject:
   - component: {fileID: 231373412}
   - component: {fileID: 231373411}
   - component: {fileID: 231373410}
-  - component: {fileID: 231373409}
+  - component: {fileID: 231373413}
   m_Layer: 0
   m_Name: connector14
   m_TagString: Untagged
@@ -982,20 +979,6 @@ Transform:
   m_Father: {fileID: 7967522}
   m_RootOrder: 45
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &231373409
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 231373407}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 59c7be1d1edfad649900d52a1d9e558e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  wire14: {fileID: 435940740}
-  RemoveWireButton14: {fileID: 1161863919}
 --- !u!65 &231373410
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1059,6 +1042,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 231373407}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &231373413
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 231373407}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a52ff7616efc4a4a879ac08ed7aefcb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wire: {fileID: 435940740}
+  RemoveWireButton: {fileID: 1161863919}
 --- !u!1 &239063336
 GameObject:
   m_ObjectHideFlags: 0
@@ -1328,11 +1325,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 262056607}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2a27043ffc1bb0547bf67e395ac6c474, type: 3}
+  m_Script: {fileID: 11500000, guid: 828f3fcfa8354124289c5eba45837660, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TheDeleteWireButton16: {fileID: 262056607}
-  Wire16: {fileID: 1642765232}
+  Wire: {fileID: 1642765232}
 --- !u!1 &276913044
 GameObject:
   m_ObjectHideFlags: 0
@@ -1780,7 +1776,7 @@ GameObject:
   - component: {fileID: 372962826}
   - component: {fileID: 372962825}
   - component: {fileID: 372962824}
-  - component: {fileID: 372962823}
+  - component: {fileID: 372962827}
   m_Layer: 0
   m_Name: connector11
   m_TagString: Untagged
@@ -1803,20 +1799,6 @@ Transform:
   m_Father: {fileID: 7967522}
   m_RootOrder: 39
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &372962823
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 372962821}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bd1a6d1e084bc8f4597d50add5cc0ac2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  wire11: {fileID: 1607908074}
-  RemoveWireButton11: {fileID: 675999778}
 --- !u!65 &372962824
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1880,6 +1862,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 372962821}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &372962827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 372962821}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a52ff7616efc4a4a879ac08ed7aefcb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wire: {fileID: 1607908074}
+  RemoveWireButton: {fileID: 675999778}
 --- !u!1 &388342782
 GameObject:
   m_ObjectHideFlags: 0
@@ -2106,7 +2102,7 @@ GameObject:
   - component: {fileID: 412596810}
   - component: {fileID: 412596809}
   - component: {fileID: 412596808}
-  - component: {fileID: 412596807}
+  - component: {fileID: 412596811}
   m_Layer: 0
   m_Name: connector5
   m_TagString: Untagged
@@ -2129,20 +2125,6 @@ Transform:
   m_Father: {fileID: 7967522}
   m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &412596807
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 412596805}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 839799e906e6c874797fb73655413e3c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  wire5: {fileID: 1667916793}
-  RemoveWireButton5: {fileID: 1082601532}
 --- !u!65 &412596808
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2206,6 +2188,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 412596805}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &412596811
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 412596805}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a52ff7616efc4a4a879ac08ed7aefcb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wire: {fileID: 1667916793}
+  RemoveWireButton: {fileID: 1082601532}
 --- !u!1 &431670928
 GameObject:
   m_ObjectHideFlags: 0
@@ -2543,11 +2539,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 482553467}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7138d08ab501cc54a84fa25c62c965b5, type: 3}
+  m_Script: {fileID: 11500000, guid: 828f3fcfa8354124289c5eba45837660, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TheDeleteWireButton3: {fileID: 482553467}
-  Wire3: {fileID: 1459514542}
+  Wire: {fileID: 1459514542}
 --- !u!1 &546445019
 GameObject:
   m_ObjectHideFlags: 0
@@ -3118,11 +3113,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 675999778}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7bfe34f40b233e749b69d6d251fce164, type: 3}
+  m_Script: {fileID: 11500000, guid: 828f3fcfa8354124289c5eba45837660, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TheDeleteWireButton11: {fileID: 675999778}
-  Wire11: {fileID: 1607908074}
+  Wire: {fileID: 1607908074}
 --- !u!1 &684007238
 GameObject:
   m_ObjectHideFlags: 0
@@ -3215,7 +3209,7 @@ GameObject:
   - component: {fileID: 690495579}
   - component: {fileID: 690495578}
   - component: {fileID: 690495577}
-  - component: {fileID: 690495576}
+  - component: {fileID: 690495580}
   m_Layer: 0
   m_Name: connector8
   m_TagString: Untagged
@@ -3238,20 +3232,6 @@ Transform:
   m_Father: {fileID: 7967522}
   m_RootOrder: 33
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &690495576
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 690495574}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e57ec028254dc25439aed40ceeda3b79, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  wire8: {fileID: 316504500}
-  RemoveWireButton8: {fileID: 1903180028}
 --- !u!65 &690495577
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3315,6 +3295,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 690495574}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &690495580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 690495574}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a52ff7616efc4a4a879ac08ed7aefcb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wire: {fileID: 316504500}
+  RemoveWireButton: {fileID: 1903180028}
 --- !u!1 &707811865
 GameObject:
   m_ObjectHideFlags: 0
@@ -3327,7 +3321,7 @@ GameObject:
   - component: {fileID: 707811870}
   - component: {fileID: 707811869}
   - component: {fileID: 707811868}
-  - component: {fileID: 707811867}
+  - component: {fileID: 707811871}
   m_Layer: 0
   m_Name: connector12
   m_TagString: Untagged
@@ -3350,20 +3344,6 @@ Transform:
   m_Father: {fileID: 7967522}
   m_RootOrder: 41
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &707811867
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 707811865}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9d501fcb464ff3949bf64832258e09a1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  wire12: {fileID: 364213754}
-  RemoveWireButton12: {fileID: 1962335834}
 --- !u!65 &707811868
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3427,6 +3407,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 707811865}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &707811871
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 707811865}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a52ff7616efc4a4a879ac08ed7aefcb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wire: {fileID: 364213754}
+  RemoveWireButton: {fileID: 1962335834}
 --- !u!1 &709817269
 GameObject:
   m_ObjectHideFlags: 0
@@ -3519,7 +3513,7 @@ GameObject:
   - component: {fileID: 710445406}
   - component: {fileID: 710445405}
   - component: {fileID: 710445404}
-  - component: {fileID: 710445403}
+  - component: {fileID: 710445407}
   m_Layer: 0
   m_Name: connector6
   m_TagString: Untagged
@@ -3542,20 +3536,6 @@ Transform:
   m_Father: {fileID: 7967522}
   m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &710445403
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 710445401}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 682e7f85a23a15447b5335aeaa5349a1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  wire6: {fileID: 1055380896}
-  RemoveWireButton6: {fileID: 1109015516}
 --- !u!65 &710445404
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3619,6 +3599,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 710445401}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &710445407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 710445401}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a52ff7616efc4a4a879ac08ed7aefcb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wire: {fileID: 1055380896}
+  RemoveWireButton: {fileID: 1109015516}
 --- !u!1 &748225603
 GameObject:
   m_ObjectHideFlags: 0
@@ -3966,11 +3960,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 800633255}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 81044c67770a75242972c8b8fb9d2a63, type: 3}
+  m_Script: {fileID: 11500000, guid: 828f3fcfa8354124289c5eba45837660, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TheDeleteWireButton7: {fileID: 800633255}
-  Wire7: {fileID: 2016837871}
+  Wire: {fileID: 2016837871}
 --- !u!1 &839644123
 GameObject:
   m_ObjectHideFlags: 0
@@ -4061,7 +4054,7 @@ GameObject:
   - component: {fileID: 844972728}
   - component: {fileID: 844972727}
   - component: {fileID: 844972726}
-  - component: {fileID: 844972725}
+  - component: {fileID: 844972729}
   m_Layer: 0
   m_Name: connector7
   m_TagString: Untagged
@@ -4084,20 +4077,6 @@ Transform:
   m_Father: {fileID: 7967522}
   m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &844972725
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 844972723}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dffd72c847703764bb7832aecb9eb6bb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  wire7: {fileID: 2016837871}
-  RemoveWireButton7: {fileID: 800633255}
 --- !u!65 &844972726
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4161,6 +4140,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 844972723}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &844972729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 844972723}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a52ff7616efc4a4a879ac08ed7aefcb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wire: {fileID: 2016837871}
+  RemoveWireButton: {fileID: 800633255}
 --- !u!1 &846445495
 GameObject:
   m_ObjectHideFlags: 0
@@ -4454,7 +4447,7 @@ GameObject:
   - component: {fileID: 887178744}
   - component: {fileID: 887178743}
   - component: {fileID: 887178742}
-  - component: {fileID: 887178741}
+  - component: {fileID: 887178745}
   m_Layer: 0
   m_Name: connector13
   m_TagString: Untagged
@@ -4477,20 +4470,6 @@ Transform:
   m_Father: {fileID: 7967522}
   m_RootOrder: 43
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &887178741
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 887178739}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 087d043ae617836499c100995f09e840, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  wire13: {fileID: 2105044808}
-  RemoveWireButton13: {fileID: 180422442}
 --- !u!65 &887178742
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4554,6 +4533,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 887178739}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &887178745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 887178739}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a52ff7616efc4a4a879ac08ed7aefcb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wire: {fileID: 2105044808}
+  RemoveWireButton: {fileID: 180422442}
 --- !u!1 &888999146
 GameObject:
   m_ObjectHideFlags: 0
@@ -4565,7 +4558,7 @@ GameObject:
   - component: {fileID: 888999150}
   - component: {fileID: 888999149}
   - component: {fileID: 888999148}
-  - component: {fileID: 888999147}
+  - component: {fileID: 888999151}
   m_Layer: 0
   m_Name: RemoveWireButton1
   m_TagString: Untagged
@@ -4573,20 +4566,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &888999147
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 888999146}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 74942b7756324724ebb05209dcce5515, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  TheDeleteWireButton1: {fileID: 888999146}
-  Wire1: {fileID: 1727081856}
 --- !u!65 &888999148
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4667,6 +4646,19 @@ Transform:
   m_Father: {fileID: 7967522}
   m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!114 &888999151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 888999146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 828f3fcfa8354124289c5eba45837660, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Wire: {fileID: 1727081856}
 --- !u!1 &889939301
 GameObject:
   m_ObjectHideFlags: 0
@@ -4759,7 +4751,7 @@ GameObject:
   - component: {fileID: 901826254}
   - component: {fileID: 901826253}
   - component: {fileID: 901826252}
-  - component: {fileID: 901826251}
+  - component: {fileID: 901826255}
   m_Layer: 0
   m_Name: connector2
   m_TagString: Untagged
@@ -4782,20 +4774,6 @@ Transform:
   m_Father: {fileID: 7967522}
   m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &901826251
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 901826249}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2810380d84594ed4b923745602d7351b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  wire2: {fileID: 1454696708}
-  RemoveWireButton2: {fileID: 937408870}
 --- !u!65 &901826252
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4859,6 +4837,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 901826249}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &901826255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 901826249}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a52ff7616efc4a4a879ac08ed7aefcb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wire: {fileID: 1454696708}
+  RemoveWireButton: {fileID: 937408870}
 --- !u!1 &906952808
 GameObject:
   m_ObjectHideFlags: 0
@@ -4982,8 +4974,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a52ff7616efc4a4a879ac08ed7aefcb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wire1: {fileID: 1727081856}
-  RemoveWireButton1: {fileID: 888999146}
+  wire: {fileID: 1727081856}
+  RemoveWireButton: {fileID: 888999146}
 --- !u!65 &919266221
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5158,8 +5150,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 828f3fcfa8354124289c5eba45837660, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TheDeleteWireButton2: {fileID: 937408870}
-  Wire2: {fileID: 1454696708}
+  Wire: {fileID: 1454696708}
 --- !u!1 &967047732
 GameObject:
   m_ObjectHideFlags: 0
@@ -5172,7 +5163,7 @@ GameObject:
   - component: {fileID: 967047737}
   - component: {fileID: 967047736}
   - component: {fileID: 967047735}
-  - component: {fileID: 967047734}
+  - component: {fileID: 967047738}
   m_Layer: 0
   m_Name: connector3
   m_TagString: Untagged
@@ -5195,20 +5186,6 @@ Transform:
   m_Father: {fileID: 7967522}
   m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &967047734
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 967047732}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2df3e45865e141747b518db03355ca58, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  wire3: {fileID: 1459514542}
-  RemoveWireButton3: {fileID: 482553467}
 --- !u!65 &967047735
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5272,6 +5249,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 967047732}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &967047738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 967047732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a52ff7616efc4a4a879ac08ed7aefcb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wire: {fileID: 1459514542}
+  RemoveWireButton: {fileID: 482553467}
 --- !u!1 &975416240
 GameObject:
   m_ObjectHideFlags: 0
@@ -5582,7 +5573,7 @@ GameObject:
   - component: {fileID: 1064316369}
   - component: {fileID: 1064316368}
   - component: {fileID: 1064316367}
-  - component: {fileID: 1064316366}
+  - component: {fileID: 1064316370}
   m_Layer: 0
   m_Name: connector15
   m_TagString: Untagged
@@ -5605,20 +5596,6 @@ Transform:
   m_Father: {fileID: 7967522}
   m_RootOrder: 47
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1064316366
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1064316364}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f50872429313c044f91631526b4faca3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  wire15: {fileID: 1154879403}
-  RemoveWireButton15: {fileID: 1325990060}
 --- !u!65 &1064316367
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5682,6 +5659,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1064316364}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1064316370
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1064316364}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a52ff7616efc4a4a879ac08ed7aefcb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wire: {fileID: 1154879403}
+  RemoveWireButton: {fileID: 1325990060}
 --- !u!1 &1073979614
 GameObject:
   m_ObjectHideFlags: 0
@@ -5897,11 +5888,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1082601532}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 679a26aaaf2f2fe4baff32ab37ae22ab, type: 3}
+  m_Script: {fileID: 11500000, guid: 828f3fcfa8354124289c5eba45837660, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TheDeleteWireButton5: {fileID: 1082601532}
-  Wire5: {fileID: 1667916793}
+  Wire: {fileID: 1667916793}
 --- !u!1 &1109015516
 GameObject:
   m_ObjectHideFlags: 0
@@ -6010,11 +6000,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1109015516}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 42d62ee7f654bf24ebd0c6a3ae0342e4, type: 3}
+  m_Script: {fileID: 11500000, guid: 828f3fcfa8354124289c5eba45837660, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TheDeleteWireButton6: {fileID: 1109015516}
-  Wire6: {fileID: 1055380896}
+  Wire: {fileID: 1055380896}
 --- !u!1 &1112270445
 GameObject:
   m_ObjectHideFlags: 0
@@ -6027,7 +6016,7 @@ GameObject:
   - component: {fileID: 1112270450}
   - component: {fileID: 1112270449}
   - component: {fileID: 1112270448}
-  - component: {fileID: 1112270447}
+  - component: {fileID: 1112270451}
   m_Layer: 0
   m_Name: connector9
   m_TagString: Untagged
@@ -6050,20 +6039,6 @@ Transform:
   m_Father: {fileID: 7967522}
   m_RootOrder: 35
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1112270447
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1112270445}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bd44078f3e186242889615da5b8481d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  wire9: {fileID: 668942820}
-  RemoveWireButton9: {fileID: 50377430}
 --- !u!65 &1112270448
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6127,6 +6102,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1112270445}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1112270451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1112270445}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a52ff7616efc4a4a879ac08ed7aefcb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wire: {fileID: 668942820}
+  RemoveWireButton: {fileID: 50377430}
 --- !u!1 &1131415731
 GameObject:
   m_ObjectHideFlags: 0
@@ -6332,11 +6321,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1161863919}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8e45359e27c82b94e8b26e995362372e, type: 3}
+  m_Script: {fileID: 11500000, guid: 828f3fcfa8354124289c5eba45837660, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TheDeleteWireButton14: {fileID: 1161863919}
-  Wire14: {fileID: 435940740}
+  Wire: {fileID: 435940740}
 --- !u!1 &1191917439
 GameObject:
   m_ObjectHideFlags: 0
@@ -7605,11 +7593,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1325990060}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d4dadd7b7ef31324e94da07737be2aa0, type: 3}
+  m_Script: {fileID: 11500000, guid: 828f3fcfa8354124289c5eba45837660, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TheDeleteWireButton15: {fileID: 1325990060}
-  Wire15: {fileID: 1154879403}
+  Wire: {fileID: 1154879403}
 --- !u!1 &1331492587
 GameObject:
   m_ObjectHideFlags: 0
@@ -8197,11 +8184,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1417477782}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c39166774d7e1c34c97dcc6ccad17060, type: 3}
+  m_Script: {fileID: 11500000, guid: 828f3fcfa8354124289c5eba45837660, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TheDeleteWireButton10: {fileID: 1417477782}
-  Wire10: {fileID: 1402122019}
+  Wire: {fileID: 1402122019}
 --- !u!1 &1454696708 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -1326649226690033636, guid: 980ebf904e5ad00439ca860f6251f590, type: 3}
@@ -9010,7 +8996,7 @@ GameObject:
   - component: {fileID: 1698489397}
   - component: {fileID: 1698489396}
   - component: {fileID: 1698489395}
-  - component: {fileID: 1698489394}
+  - component: {fileID: 1698489398}
   m_Layer: 0
   m_Name: connector4
   m_TagString: Untagged
@@ -9033,20 +9019,6 @@ Transform:
   m_Father: {fileID: 7967522}
   m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1698489394
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1698489392}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d4755ab90efaefd47a80dab391bdd208, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  wire4: {fileID: 436446969}
-  RemoveWireButton4: {fileID: 197178960}
 --- !u!65 &1698489395
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9110,6 +9082,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1698489392}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1698489398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1698489392}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a52ff7616efc4a4a879ac08ed7aefcb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wire: {fileID: 436446969}
+  RemoveWireButton: {fileID: 197178960}
 --- !u!1 &1702108705
 GameObject:
   m_ObjectHideFlags: 0
@@ -9123,41 +9109,6 @@ GameObject:
   - component: {fileID: 1702108709}
   - component: {fileID: 1702108708}
   - component: {fileID: 1702108711}
-  - component: {fileID: 1702108714}
-  - component: {fileID: 1702108713}
-  - component: {fileID: 1702108712}
-  - component: {fileID: 1702108710}
-  - component: {fileID: 1702108720}
-  - component: {fileID: 1702108719}
-  - component: {fileID: 1702108718}
-  - component: {fileID: 1702108717}
-  - component: {fileID: 1702108716}
-  - component: {fileID: 1702108730}
-  - component: {fileID: 1702108729}
-  - component: {fileID: 1702108728}
-  - component: {fileID: 1702108727}
-  - component: {fileID: 1702108726}
-  - component: {fileID: 1702108725}
-  - component: {fileID: 1702108724}
-  - component: {fileID: 1702108723}
-  - component: {fileID: 1702108722}
-  - component: {fileID: 1702108721}
-  - component: {fileID: 1702108746}
-  - component: {fileID: 1702108745}
-  - component: {fileID: 1702108744}
-  - component: {fileID: 1702108743}
-  - component: {fileID: 1702108742}
-  - component: {fileID: 1702108741}
-  - component: {fileID: 1702108740}
-  - component: {fileID: 1702108739}
-  - component: {fileID: 1702108738}
-  - component: {fileID: 1702108737}
-  - component: {fileID: 1702108736}
-  - component: {fileID: 1702108735}
-  - component: {fileID: 1702108734}
-  - component: {fileID: 1702108733}
-  - component: {fileID: 1702108732}
-  - component: {fileID: 1702108731}
   m_Layer: 0
   m_Name: WireScript
   m_TagString: Untagged
@@ -9225,20 +9176,6 @@ MonoBehaviour:
   Bundle2B: {fileID: 1304077488}
   Bundle3B: {fileID: 305277817}
   Bundle4B: {fileID: 48322518}
---- !u!114 &1702108710
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1702108705}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0a52ff7616efc4a4a879ac08ed7aefcb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  wire1: {fileID: 1727081856}
-  RemoveWireButton1: {fileID: 0}
 --- !u!114 &1702108711
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9301,488 +9238,6 @@ MonoBehaviour:
   - {fileID: 231373407}
   - {fileID: 1064316364}
   - {fileID: 2119615114}
---- !u!114 &1702108712
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1702108705}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 886ac00a0ca4b0041a021ce360e1d435, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Bundle2B: {fileID: 0}
-  Bundle3B: {fileID: 0}
-  Bundle4B: {fileID: 0}
-  AllWiresInvisableToStartScript: {fileID: 0}
---- !u!114 &1702108713
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1702108705}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e3e7e6f75d090744952cbc8bef16eef, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Bundle2B: {fileID: 0}
-  Bundle3B: {fileID: 0}
-  Bundle4B: {fileID: 0}
-  AllWiresInvisableToStartScript: {fileID: 0}
---- !u!114 &1702108714
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1702108705}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2d689e17d085d7642aadf3dc170968ea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Bundle2B: {fileID: 0}
-  Bundle3B: {fileID: 0}
-  Bundle4B: {fileID: 0}
-  AllWiresInvisableToStartScript: {fileID: 0}
---- !u!114 &1702108716
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1702108705}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 682e7f85a23a15447b5335aeaa5349a1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  wire6: {fileID: 0}
-  RemoveWireButton6: {fileID: 0}
---- !u!114 &1702108717
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1702108705}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 839799e906e6c874797fb73655413e3c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  wire5: {fileID: 0}
-  RemoveWireButton5: {fileID: 0}
---- !u!114 &1702108718
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1702108705}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d4755ab90efaefd47a80dab391bdd208, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  wire4: {fileID: 0}
-  RemoveWireButton4: {fileID: 0}
---- !u!114 &1702108719
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1702108705}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2df3e45865e141747b518db03355ca58, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  wire3: {fileID: 0}
-  RemoveWireButton3: {fileID: 0}
---- !u!114 &1702108720
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1702108705}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2810380d84594ed4b923745602d7351b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  wire2: {fileID: 0}
-  RemoveWireButton2: {fileID: 0}
---- !u!114 &1702108721
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1702108705}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c7fa07f98138762479acdf3273210535, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  wire16: {fileID: 0}
-  RemoveWireButton16: {fileID: 0}
---- !u!114 &1702108722
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1702108705}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f50872429313c044f91631526b4faca3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  wire15: {fileID: 0}
-  RemoveWireButton15: {fileID: 0}
---- !u!114 &1702108723
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1702108705}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 59c7be1d1edfad649900d52a1d9e558e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  wire14: {fileID: 0}
-  RemoveWireButton14: {fileID: 0}
---- !u!114 &1702108724
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1702108705}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 087d043ae617836499c100995f09e840, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  wire13: {fileID: 0}
-  RemoveWireButton13: {fileID: 0}
---- !u!114 &1702108725
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1702108705}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 087d043ae617836499c100995f09e840, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  wire13: {fileID: 0}
-  RemoveWireButton13: {fileID: 0}
---- !u!114 &1702108726
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1702108705}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9d501fcb464ff3949bf64832258e09a1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  wire12: {fileID: 0}
-  RemoveWireButton12: {fileID: 0}
---- !u!114 &1702108727
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1702108705}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bd1a6d1e084bc8f4597d50add5cc0ac2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  wire11: {fileID: 0}
-  RemoveWireButton11: {fileID: 0}
---- !u!114 &1702108728
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1702108705}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 53141728b12f4d240be71e5b441a6009, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  wire10: {fileID: 0}
-  RemoveWireButton10: {fileID: 0}
---- !u!114 &1702108729
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1702108705}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bd44078f3e186242889615da5b8481d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  wire9: {fileID: 0}
-  RemoveWireButton9: {fileID: 0}
---- !u!114 &1702108730
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1702108705}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e57ec028254dc25439aed40ceeda3b79, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  wire8: {fileID: 0}
-  RemoveWireButton8: {fileID: 0}
---- !u!114 &1702108731
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1702108705}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2a27043ffc1bb0547bf67e395ac6c474, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  TheDeleteWireButton16: {fileID: 0}
-  Wire16: {fileID: 0}
---- !u!114 &1702108732
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1702108705}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d4dadd7b7ef31324e94da07737be2aa0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  TheDeleteWireButton15: {fileID: 0}
-  Wire15: {fileID: 0}
---- !u!114 &1702108733
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1702108705}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8e45359e27c82b94e8b26e995362372e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  TheDeleteWireButton14: {fileID: 0}
-  Wire14: {fileID: 0}
---- !u!114 &1702108734
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1702108705}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 01c2b88f9b6550549938584fd3c84c76, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  TheDeleteWireButton13: {fileID: 0}
-  Wire13: {fileID: 0}
---- !u!114 &1702108735
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1702108705}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f854d400e229efa4aa634d95974e6a24, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  TheDeleteWireButton12: {fileID: 0}
-  Wire12: {fileID: 0}
---- !u!114 &1702108736
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1702108705}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7bfe34f40b233e749b69d6d251fce164, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  TheDeleteWireButton11: {fileID: 0}
-  Wire11: {fileID: 0}
---- !u!114 &1702108737
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1702108705}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c39166774d7e1c34c97dcc6ccad17060, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  TheDeleteWireButton10: {fileID: 0}
-  Wire10: {fileID: 0}
---- !u!114 &1702108738
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1702108705}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 871932a9304bdea4c8f8eff89c60e273, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  TheDeleteWireButton9: {fileID: 0}
-  Wire9: {fileID: 0}
---- !u!114 &1702108739
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1702108705}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a8cd851c8567fe94fbdba9633711c831, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  TheDeleteWireButton8: {fileID: 0}
-  Wire8: {fileID: 0}
---- !u!114 &1702108740
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1702108705}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 81044c67770a75242972c8b8fb9d2a63, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  TheDeleteWireButton7: {fileID: 0}
-  Wire7: {fileID: 0}
---- !u!114 &1702108741
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1702108705}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 42d62ee7f654bf24ebd0c6a3ae0342e4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  TheDeleteWireButton6: {fileID: 0}
-  Wire6: {fileID: 0}
---- !u!114 &1702108742
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1702108705}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 679a26aaaf2f2fe4baff32ab37ae22ab, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  TheDeleteWireButton5: {fileID: 0}
-  Wire5: {fileID: 0}
---- !u!114 &1702108743
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1702108705}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a28a8a66094517b4cac4b96de4eaefbe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  TheDeleteWireButton4: {fileID: 0}
-  Wire4: {fileID: 0}
---- !u!114 &1702108744
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1702108705}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7138d08ab501cc54a84fa25c62c965b5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  TheDeleteWireButton3: {fileID: 0}
-  Wire3: {fileID: 0}
---- !u!114 &1702108745
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1702108705}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 828f3fcfa8354124289c5eba45837660, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  TheDeleteWireButton2: {fileID: 0}
-  Wire2: {fileID: 0}
---- !u!114 &1702108746
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1702108705}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 74942b7756324724ebb05209dcce5515, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  TheDeleteWireButton1: {fileID: 0}
-  Wire1: {fileID: 0}
 --- !u!1 &1727081856 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4296418687008448887, guid: 980ebf904e5ad00439ca860f6251f590, type: 3}
@@ -10699,11 +10154,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1903180028}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a8cd851c8567fe94fbdba9633711c831, type: 3}
+  m_Script: {fileID: 11500000, guid: 828f3fcfa8354124289c5eba45837660, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TheDeleteWireButton8: {fileID: 1903180028}
-  Wire8: {fileID: 316504500}
+  Wire: {fileID: 316504500}
 --- !u!1 &1904166338
 GameObject:
   m_ObjectHideFlags: 0
@@ -10953,11 +10407,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1962335834}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f854d400e229efa4aa634d95974e6a24, type: 3}
+  m_Script: {fileID: 11500000, guid: 828f3fcfa8354124289c5eba45837660, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TheDeleteWireButton12: {fileID: 1962335834}
-  Wire12: {fileID: 364213754}
+  Wire: {fileID: 364213754}
 --- !u!1 &2012521798
 GameObject:
   m_ObjectHideFlags: 0
@@ -11597,7 +11050,7 @@ GameObject:
   - component: {fileID: 2083817111}
   - component: {fileID: 2083817110}
   - component: {fileID: 2083817109}
-  - component: {fileID: 2083817108}
+  - component: {fileID: 2083817112}
   m_Layer: 0
   m_Name: connector10
   m_TagString: Untagged
@@ -11620,20 +11073,6 @@ Transform:
   m_Father: {fileID: 7967522}
   m_RootOrder: 37
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2083817108
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2083817106}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 53141728b12f4d240be71e5b441a6009, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  wire10: {fileID: 1402122019}
-  RemoveWireButton10: {fileID: 1417477782}
 --- !u!65 &2083817109
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11697,6 +11136,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2083817106}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2083817112
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2083817106}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a52ff7616efc4a4a879ac08ed7aefcb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wire: {fileID: 1402122019}
+  RemoveWireButton: {fileID: 1417477782}
 --- !u!1 &2105044808 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -2272913289552702513, guid: 980ebf904e5ad00439ca860f6251f590, type: 3}
@@ -11727,7 +11180,7 @@ GameObject:
   - component: {fileID: 2119615119}
   - component: {fileID: 2119615118}
   - component: {fileID: 2119615117}
-  - component: {fileID: 2119615116}
+  - component: {fileID: 2119615120}
   m_Layer: 0
   m_Name: connector16
   m_TagString: Untagged
@@ -11750,20 +11203,6 @@ Transform:
   m_Father: {fileID: 7967522}
   m_RootOrder: 49
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2119615116
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2119615114}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c7fa07f98138762479acdf3273210535, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  wire16: {fileID: 1642765232}
-  RemoveWireButton16: {fileID: 262056607}
 --- !u!65 &2119615117
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11827,6 +11266,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2119615114}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2119615120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2119615114}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a52ff7616efc4a4a879ac08ed7aefcb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wire: {fileID: 1642765232}
+  RemoveWireButton: {fileID: 262056607}
 --- !u!1 &2128916533
 GameObject:
   m_ObjectHideFlags: 0
